@@ -1,0 +1,95 @@
+body {
+	font: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #616B76;
+}
+
+a {
+	color: #DF9496;
+}
+
+#calendar {
+	width: 164px;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #E6E6E6;
+	text-align: center;
+	background-color: #EFEFEF;
+}
+
+.nav, .nav a {
+	font: bold 18px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;	
+	text-align: center;
+	text-decoration: none;
+}	
+
+
+caption {
+    background: url("../images/bg_title_calendario.png") no-repeat scroll 2px 0 #EFEFEF;
+    color: #FFFFFF;
+    font-family: 'Arial','Nimbus Sans L',sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 22px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 164px;
+}
+
+th {
+    color: #000000;
+    font-family: Arial,Helmet,Freesans,sans-serif ;
+    font-size: 8px;
+    font-weight: 900;
+	background-color: #EFEFEF;
+	border: 1px solid #EFEFEF;
+}
+
+.today, td.today a, td.today a:link, td.today a:visited {
+	color: #333333;
+	font-weight: bold;
+	background: #95CDFE;
+}
+
+td {
+    color: #2B4BC1;
+    font-size: 10px;
+    font-weight: bold;
+    padding-right: 2px;
+    text-align: right;
+    width: 17px;
+}
+
+td a {
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+
+td a:link, td a:visited {	
+	color: #608194;
+}
+
+td a:hover, td a:active {
+	color: #6aa3ae;
+}
+tr {
+	height: 17px;
+}
+/*fuera del mes*/
+.fueradelmes_top {
+	width: 18px;
+}
+.fueradelmes_low {
+	width: 18px;
+}
+td.diadelmes {
+    background-color: #F7F7F7;
+    border: 1px solid #CFCFCF;
+    font-family: Arial,Helmet,Freesans,sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    width: 18px;
+}
