@@ -1,3 +1,6 @@
 #pestanas {
     width: 750px;
 }
+.ui-tabs .ui-tabs-nav li {
+	width: 241px;
+}
