@@ -1,0 +1,26 @@
+.tab_breadcroumbs {
+    color: #888888;
+    display: inline-block;
+    font-family: Arial,Helmet,Freesans,sans-serif;
+    font-size: 12px;
+    height: 40px;
+    line-height: 20px;
+}
+h3.titulo_meses {
+	background: url("../images/titulo-meses.png") repeat-x scroll 0 0 transparent;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: Arial,Helmet,Freesans,sans-serif;
+	font-size: 13px;
+	height: 23px;
+	line-height: 19px;
+	margin: 0;
+	width: 741px;
+}
+h3.titulo_meses span {
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	text-align: center;
+	width: 125px;
+}

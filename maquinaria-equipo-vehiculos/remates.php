@@ -4,8 +4,13 @@
 <meta charset="utf-8" />
 <title>Sitio Tattersall</title>
 <link rel=StyleSheet href="../css/reset.css" type="text/css" media="screen">
-<link rel=StyleSheet href="../css/styles.css" type="text/css"
-	media="screen">
+<link rel=StyleSheet href="../css/styles.css" type="text/css" media="screen">
+<!-- inicio archivos necesarios para los tabs -->
+<link href="../tabs/css/default.css" rel="stylesheet" type="text/css" />
+<link href="../tabs/css/predifinido.css" rel="stylesheet" type="text/css" />
+<link href="../tabs/css/personalizado.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../tabs/js/activo.js" ></script>
+<!-- fin archivos necesarios para los tabs -->
 <script	src="../js/jquery/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready( function (){
@@ -68,7 +73,20 @@ $(document).ready( function (){
 	<div class="clearfix"></div>
 	<div id="sec_contenido">
 		<div class="wrap">
-			<p>contenido</p>
+			<div id="wrap_remates" style="min-height: 700px;">
+				<div id="tabs-mev" class="tabBox" style="clear:both;">
+					<div class="tabArea">
+						<a class="tab" href="../tabs/tabs-paginas/tab-remates.html" target="tabIframe2">Remates</a>
+						<a class="tab" href="../tabs/tabs-paginas/tab-venta-directa.html" target="tabIframe2">Venta Directa</a>
+						<a class="tab" href="../tabs/tabs-paginas/tab-remate-online.html" target="tabIframe2">Remate On-Line</a>
+					</div>
+					<div class="tabMain">
+					<div class="tabIframeWrapper">
+						<iframe class="tabContent" name="tabIframe2" src="../tabs/tabs-paginas/tab-remates.html" marginheight="8" marginwidth="8" frameborder="0"></iframe>
+					</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="clearfix"></div>

@@ -1,0 +1,72 @@
+
+/******************************************************************************
+* Additional styles.                                                          *
+******************************************************************************/
+body {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+#tabs-mev {
+	width: 760px;
+}
+div.tabArea {
+	background: url("../images/bg_wrap_tabs.jpg") repeat-y scroll 0 0 transparent;
+	padding-bottom: 0px;
+	padding-top: 7px;
+}
+/*reescritura*/
+a.tab, a.tab:visited {
+	background: url("../images/bg_tab_inactive.jpg") repeat-x scroll 0 3px #BCBCBC;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: 'Arial Narrow','Nimbus Sans L',sans-serif;
+	font-size: 18px;
+	height: 40px;
+	line-height: 36px;
+	margin: 0 5px;
+	padding: 0;
+	text-align: center;
+	width: 240px;
+}
+a.tab.activeTab {
+    padding-bottom: 4px;
+    top: 1px;
+    z-index: 102;
+}
+a.tab.activeTab, a.tab.activeTab:hover, a.tab.activeTab:visited {
+	background: url("../images/bg_tab_active.jpg") repeat-x scroll 0 3px transparent !important;
+	height: 45px;
+    border-color: #B090E0 #7050A0 #7050A0 #B090E0;
+    color: #FFFFFF;
+}
+
+div.tabMain {
+	background-color: transparent;
+	border-top: 4px solid #ABC700;
+	border-right: 2px solid #EDEDED;
+	border-left: 2px solid #EDEDED;
+	border-bottom: 2px solid #EDEDED;
+	height: 890px;
+	padding: 0;
+}
+div.tabMain h4 {
+	margin: 0;
+}
+a.tab {
+	border-width: 0;
+}
+
+iframe.tabContent {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F6F6F6;
+    border-color: #7050A0 #B090E0 #B090E0 #7050A0;
+    border-image: none;
+    border-style: solid;
+    border-width: 0px;
+    height: 890px;
+    width: 100%;
+}
