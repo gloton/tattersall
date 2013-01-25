@@ -131,7 +131,7 @@ $(document).ready( function (){
 	</div>
 	<div class="clearfix"></div>
 	<div id="sec_contenido">
-		<div class="wrap">
+		<div class="wrap" style="background-color: #D6D6D6;">
 			<div id="cont_noti_destac" class="cont_block">
 				<div class="cont_title">NOTICIAS DESTACADAS</div>
 				<div class="cont_cuerpo">

@@ -68,67 +68,7 @@ $(document).ready( function (){
 	<div class="clearfix"></div>
 	<div id="sec_contenido">
 		<div class="wrap">
-			<div id="cont_noti_destac" class="cont_block">
-				<div class="cont_title">NOTICIAS DESTACADAS</div>
-				<div class="cont_cuerpo">
-					<h4>NUEVA WEB TATTERSALL</h4>
-					<div id="img_noti_dest">
-						<img src="images/home/noti_dest_1.jpg" alt="" />
-					</div>
-					<p>Para buscar oportunidades</p>
-					<hr />
-					<div class="vermas">
-						<p>
-							<a href="" class="link_vermas"><span>Ver más</span></a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div id="cont_prox_rem" class="cont_block">
-				<div class="cont_title">
-					<div id="cont_title_prox_rem">PROXIMOS REMATES</div>
-				</div>
-				<ul id="listado_prox_rem">
-					<li>
-						<h3>Jueves, 17 De Ene, 2013</h3>
-						<p>Augue per fringilla aptent egestas convallis vivamus iaculis
-							consectetur nam varius, platea augue libero quam ante scelerisque
-							a scelerisque ipsum metus.
-					
-					</li>
-					<li>
-						<h3>Jueves, 17 De Ene, 2013</h3>
-						<p>Augue per fringilla aptent egestas convallis vivamus iaculis
-							consectetur nam varius, platea augue libero quam ante scelerisque
-							a scelerisque ipsum metus.</p>
-					</li>
-					<li>
-						<h3>Jueves, 17 De Ene, 2013</h3>
-						<p>Augue per fringilla aptent egestas convallis vivamus iaculis
-							consectetur nam varius.</p>
-					</li>
-					<li>
-						<h3>Jueves, 17 De Ene, 2013</h3>
-						<p>Augue per fringilla aptent egestas convallis vivamus iaculis
-							consectetur nam varius.</p>
-					</li>
-				</ul>
-				<hr />
-				<div class="vermas">
-					<p>
-						<a class="link_vermas" href="javascript:void(0);"><span>Ver más</span></a>
-					</p>
-				</div>
-			</div>
-			<div id="cont_banners">
-				<ul id="listado_banners">
-					<li><img src="images/banners/banner1_remates.jpg" alt="" /></li>
-					<li><img
-						src="images/banners/banner2_ofrecimiento_financiamiento.jpg"
-						alt="" /></li>
-					<li><img src="images/banners/banner3_contactenos.jpg" alt="" /></li>
-				</ul>
-			</div>
+			<p>contenido</p>
 		</div>
 	</div>
 	<div class="clearfix"></div>
