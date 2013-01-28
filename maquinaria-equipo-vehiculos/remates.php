@@ -5,6 +5,7 @@
 <title>Sitio Tattersall</title>
 <link rel=StyleSheet href="../css/reset.css" type="text/css" media="screen">
 <link rel=StyleSheet href="../css/styles.css" type="text/css" media="screen">
+<link rel=StyleSheet href="../css/remates.css" type="text/css" media="screen">
 <!-- inicio archivos necesarios para los tabs -->
 <link href="../tabs/css/default.css" rel="stylesheet" type="text/css" />
 <link href="../tabs/css/predifinido.css" rel="stylesheet" type="text/css" />
@@ -90,10 +91,48 @@ $(document).ready( function (){
 					<div id="ver_propiedades">
 						<div class="tituProp">Propiedades</div>
 						<div class="flecha"><a href="javascript:void(0);"><img src="../images/flecha-circulo.png" alt="" /></a></div>
+						<div class="clearfix"></div>
 					</div>
 					<div class="banners">
 						<img id="banner_financiamiento" src="../images/banners/banner_necesita_financiamiento181X132.jpg" alt="" />
 					</div>
+					<div id="prox_rem_side">
+						<h3 class="title_rem">PROXIMOS REMATES</h3>
+						<ul id="lst_rem">
+							<li>
+								<div class="info_rem_side">
+									<h4 class="date_rem">Jueves 17 de Ene 2013</h4>
+									<p class="detalle">Fábrica Completa Modulan. Por término de giro se remata: galpones, Maquinas 
+									Juntas Finger Joint,
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="info_rem_side">
+									<h4 class=""date_rem"">Jueves 17 de Ene 2013</h4>
+									<p class="detalle">Parcelas Colchagua, Camarico 5 Parcelas: Parcela n°62, 6.146m2; Parcela n°63, 
+									8,128m2: Parcela
+									</p>
+								</div>							
+							</li>
+							<li>
+								<div class="info_rem_side">
+									<h4 class=""date_rem"">Jueves 17 de Ene 2013</h4>
+									<p class="detalle">Valdivia, Terreno Insdustrial/Habitacional Zona ZU-6, Superficie: 114.000m2, 
+									Frente a calle
+									</p>
+								</div>							
+							</li>
+							<li>
+								<div class="info_rem_side">
+									<h4 class=""date_rem"">Jueves 17 de Ene 2013</h4>
+									<p class="detalle">Paillaco, Unidad Económica Aserradero - Galpones - Oficinas, Completo Inventario, 
+									Superficie
+									</p>
+								</div>							
+							</li>
+						</ul>
+					</div>					
 				</div>
 			</div>
 		</div>

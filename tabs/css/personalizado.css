@@ -71,33 +71,3 @@ iframe.tabContent {
     height: 890px;
     width: 100%;
 }
-
-/*columna izquierda*/
-.col_right {
-	float: left;
-	margin-left: 15px;
-}
-.col_right div#ver_propiedades {
-  background: url("../../images/bg_title_col_right61px.png") repeat-x scroll 0 0 transparent;
-  float: left;
-  height: 65px;
-  margin-bottom: 10px;
-  padding-left: 15px;
-  width: 167px;
-}
-.col_right #ver_propiedades div.tituProp {
-	color: #FFFFFF;
-	float: left;
-	font-family: Arial,Helmet,Freesans,sans-serif;
-	font-size: 18px;
-	font-weight: bold;
-	height: 61px;
-	line-height: 56px;
-	width: 136px;
-}
-.col_right #ver_propiedades div.flecha {
-	padding-top: 18px;
-}
-.col_right .banners #banner_financiamiento {
-	border-top: 1px solid #CCCCCC;
-}

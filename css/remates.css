@@ -1,3 +1,47 @@
 #sec_contenido div.wrap div#wrap_remates {
 	height: 800px;
 }
+/*columna derecha*/
+.col_right {
+	float: left;
+	margin-left: 15px;
+}
+.col_right div#ver_propiedades {
+  background: url("../images/bg_title_col_right61px.png") repeat-x scroll 0 0 transparent;
+  float: left;
+  height: 65px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  width: 167px;
+}
+.col_right #ver_propiedades div.tituProp {
+	color: #FFFFFF;
+	float: left;
+	font-family: Arial,Helmet,Freesans,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	height: 61px;
+	line-height: 56px;
+	width: 136px;
+}
+.col_right #ver_propiedades div.flecha {
+	padding-top: 18px;
+}
+.col_right .banners #banner_financiamiento {
+	border-top: 1px solid #CCCCCC;
+}
+.col_right div#prox_rem_side {
+	border: 1px solid #CCCCCC;
+	margin-top: 16px;
+	width: 180px;
+}
+.col_right div#prox_rem_side h3.title_rem {
+  background: url("../images/bg_title_prox_rem1X40.jpg") repeat-x scroll 0 0 transparent;
+  color: #FFFFFF;
+  font-family: 'Arial Narrow','Nimbus Sans L',sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 36px;
+  text-align: center;
+}
