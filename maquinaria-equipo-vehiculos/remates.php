@@ -86,7 +86,7 @@ $(document).ready( function (){
 					</div>
 					</div>
 				</div>
-				<div class="col_left">
+				<div class="col_right">
 					<div id="ver_propiedades">
 						<div class="tituProp">Propiedades</div>
 						<div class="flecha"><a href="javascript:void(0);"><img src="../images/flecha-circulo.png" alt="" /></a></div>

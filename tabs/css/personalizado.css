@@ -73,19 +73,19 @@ iframe.tabContent {
 }
 
 /*columna izquierda*/
-.col_left {
+.col_right {
 	float: left;
 	margin-left: 15px;
 }
-.col_left div#ver_propiedades {
-  background: url("../../images/bg_title_col_left61px.png") repeat-x scroll 0 0 transparent;
+.col_right div#ver_propiedades {
+  background: url("../../images/bg_title_col_right61px.png") repeat-x scroll 0 0 transparent;
   float: left;
   height: 65px;
   margin-bottom: 10px;
   padding-left: 15px;
   width: 167px;
 }
-.col_left #ver_propiedades div.tituProp {
+.col_right #ver_propiedades div.tituProp {
 	color: #FFFFFF;
 	float: left;
 	font-family: Arial,Helmet,Freesans,sans-serif;
@@ -95,9 +95,9 @@ iframe.tabContent {
 	line-height: 56px;
 	width: 136px;
 }
-.col_left #ver_propiedades div.flecha {
+.col_right #ver_propiedades div.flecha {
 	padding-top: 18px;
 }
-.col_left .banners #banner_financiamiento {
+.col_right .banners #banner_financiamiento {
 	border-top: 1px solid #CCCCCC;
 }
