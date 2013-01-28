@@ -66,132 +66,132 @@ $(document).ready( function (){
 		</div>
 	</div>
 	<div class="clearfix"></div>
-	<div id="sec_galeria">
-		<div class="wrap">
-			<div id="galeria_izq" class="muestra">
-				<div class="muestra_top">
-					<div class="wrap_contenedor_title">
-						<div class="contenedor_title">
-							<div class="muestra_title">Propiedades</div>
-						</div>
-					</div>
-					<div class="galeria_raya"></div>
-					<div class="wrap_muestra_main">
-						<div class="muestra_main">
-							<img src="images/slide-propiedades/propiedades_slide1.jpg"
-								alt="Slide Propiedades" width="442" height="332" />
-						</div>
-					</div>
-				</div>
-				<div class="muestra_low">
-					<div class="muestra_thum">
-						<ul id="thums_propiedades">
-							<li><img
-								src="images/slide-propiedades/propiedades_slide2_thumb.jpg"
-								alt="" width="145" height="107" /></li>
-							<li><img
-								src="images/slide-propiedades/propiedades_slide3_thumb.jpg"
-								alt="" width="145" height="107" /></li>
-							<li><img
-								src="images/slide-propiedades/propiedades_slide4_thumb.jpg"
-								alt="" width="145" height="107" /></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div id="galeria_der" class="muestra">
-				<div class="muestra_top">
-					<div class="wrap_contenedor_title">
-						<div class="contenedor_title">
-							<div class="muestra_title">Maquinarias, Equipos y Vehículos</div>
-						</div>
-					</div>
-					<div class="galeria_raya"></div>
-					<div class="wrap_muestra_main">
-						<div class="muestra_main">
-							<img src="images/slide-maquinas/maquinas_slide1.jpg"
-								alt="Slide Propiedades" width="442" height="332" />
-						</div>
-					</div>
-				</div>
-				<div class="muestra_low">
-					<div class="muestra_thum">
-						<ul id="thums_propiedades">
-							<li><img src="images/slide-maquinas/maquinas_slide2_thumb.jpg"
-								alt="" width="145" height="107" /></li>
-							<li><img src="images/slide-maquinas/maquinas_slide3_thumb.jpg"
-								alt="" width="145" height="107" /></li>
-							<li><img src="images/slide-maquinas/maquinas_slide4_thumb.jpg"
-								alt="" width="145" height="107" /></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="clearfix"></div>
 	<div id="sec_contenido">
-		<div class="wrap" style="background-color: #D6D6D6; height:360px;">
-			<div id="cont_noti_destac" class="cont_block">
-				<div class="cont_title">NOTICIAS DESTACADAS</div>
-				<div class="cont_cuerpo">
-					<h4>NUEVA WEB TATTERSALL</h4>
-					<div id="img_noti_dest">
-						<img src="images/home/noti_dest_1.jpg" alt="" />
+		<div class="wrap">
+			<div id="wrap_galery">
+				<div id="galeria_izq" class="muestra">
+					<div class="muestra_top">
+						<div class="wrap_contenedor_title">
+							<div class="contenedor_title">
+								<div class="muestra_title">Propiedades</div>
+							</div>
+						</div>
+						<div class="galeria_raya"></div>
+						<div class="wrap_muestra_main">
+							<div class="muestra_main">
+								<img src="images/slide-propiedades/propiedades_slide1.jpg"
+									alt="Slide Propiedades" width="442" height="332" />
+							</div>
+						</div>
 					</div>
-					<p>Para buscar oportunidades</p>
+					<div class="muestra_low">
+						<div class="muestra_thum">
+							<ul id="thums_propiedades">
+								<li><img
+									src="images/slide-propiedades/propiedades_slide2_thumb.jpg"
+									alt="" width="145" height="107" /></li>
+								<li><img
+									src="images/slide-propiedades/propiedades_slide3_thumb.jpg"
+									alt="" width="145" height="107" /></li>
+								<li><img
+									src="images/slide-propiedades/propiedades_slide4_thumb.jpg"
+									alt="" width="145" height="107" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="galeria_der" class="muestra">
+					<div class="muestra_top">
+						<div class="wrap_contenedor_title">
+							<div class="contenedor_title">
+								<div class="muestra_title">Maquinarias, Equipos y Vehículos</div>
+							</div>
+						</div>
+						<div class="galeria_raya"></div>
+						<div class="wrap_muestra_main">
+							<div class="muestra_main">
+								<img src="images/slide-maquinas/maquinas_slide1.jpg"
+									alt="Slide Propiedades" width="442" height="332" />
+							</div>
+						</div>
+					</div>
+					<div class="muestra_low">
+						<div class="muestra_thum">
+							<ul id="thums_propiedades">
+								<li><img src="images/slide-maquinas/maquinas_slide2_thumb.jpg"
+									alt="" width="145" height="107" /></li>
+								<li><img src="images/slide-maquinas/maquinas_slide3_thumb.jpg"
+									alt="" width="145" height="107" /></li>
+								<li><img src="images/slide-maquinas/maquinas_slide4_thumb.jpg"
+									alt="" width="145" height="107" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>		
+			<div class="clearfix"></div>
+			<div id="wrap_noti_dest"  style="background-color: #D6D6D6;">
+				<div id="cont_noti_destac" class="cont_block">
+					<div class="cont_title">NOTICIAS DESTACADAS</div>
+					<div class="cont_cuerpo">
+						<h4>NUEVA WEB TATTERSALL</h4>
+						<div id="img_noti_dest">
+							<img src="images/home/noti_dest_1.jpg" alt="" />
+						</div>
+						<p>Para buscar oportunidades</p>
+						<hr />
+						<div class="vermas">
+							<p>
+								<a href="" class="link_vermas"><span>Ver más</span></a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="cont_prox_rem" class="cont_block">
+					<div class="cont_title">
+						<div id="cont_title_prox_rem">PROXIMOS REMATES</div>
+					</div>
+					<ul id="listado_prox_rem">
+						<li>
+							<h3>Jueves, 17 De Ene, 2013</h3>
+							<p>Augue per fringilla aptent egestas convallis vivamus iaculis
+								consectetur nam varius, platea augue libero quam ante scelerisque
+								a scelerisque ipsum metus.
+						
+						</li>
+						<li>
+							<h3>Jueves, 17 De Ene, 2013</h3>
+							<p>Augue per fringilla aptent egestas convallis vivamus iaculis
+								consectetur nam varius, platea augue libero quam ante scelerisque
+								a scelerisque ipsum metus.</p>
+						</li>
+						<li>
+							<h3>Jueves, 17 De Ene, 2013</h3>
+							<p>Augue per fringilla aptent egestas convallis vivamus iaculis
+								consectetur nam varius.</p>
+						</li>
+						<li>
+							<h3>Jueves, 17 De Ene, 2013</h3>
+							<p>Augue per fringilla aptent egestas convallis vivamus iaculis
+								consectetur nam varius.</p>
+						</li>
+					</ul>
 					<hr />
 					<div class="vermas">
 						<p>
-							<a href="" class="link_vermas"><span>Ver más</span></a>
+							<a class="link_vermas" href="javascript:void(0);"><span>Ver más</span></a>
 						</p>
 					</div>
 				</div>
-			</div>
-			<div id="cont_prox_rem" class="cont_block">
-				<div class="cont_title">
-					<div id="cont_title_prox_rem">PROXIMOS REMATES</div>
+				<div id="cont_banners">
+					<ul id="listado_banners">
+						<li><img src="images/banners/banner1_remates.jpg" alt="" /></li>
+						<li><img
+							src="images/banners/banner2_ofrecimiento_financiamiento.jpg"
+							alt="" /></li>
+						<li><img src="images/banners/banner3_contactenos.jpg" alt="" /></li>
+					</ul>
 				</div>
-				<ul id="listado_prox_rem">
-					<li>
-						<h3>Jueves, 17 De Ene, 2013</h3>
-						<p>Augue per fringilla aptent egestas convallis vivamus iaculis
-							consectetur nam varius, platea augue libero quam ante scelerisque
-							a scelerisque ipsum metus.
-					
-					</li>
-					<li>
-						<h3>Jueves, 17 De Ene, 2013</h3>
-						<p>Augue per fringilla aptent egestas convallis vivamus iaculis
-							consectetur nam varius, platea augue libero quam ante scelerisque
-							a scelerisque ipsum metus.</p>
-					</li>
-					<li>
-						<h3>Jueves, 17 De Ene, 2013</h3>
-						<p>Augue per fringilla aptent egestas convallis vivamus iaculis
-							consectetur nam varius.</p>
-					</li>
-					<li>
-						<h3>Jueves, 17 De Ene, 2013</h3>
-						<p>Augue per fringilla aptent egestas convallis vivamus iaculis
-							consectetur nam varius.</p>
-					</li>
-				</ul>
-				<hr />
-				<div class="vermas">
-					<p>
-						<a class="link_vermas" href="javascript:void(0);"><span>Ver más</span></a>
-					</p>
-				</div>
-			</div>
-			<div id="cont_banners">
-				<ul id="listado_banners">
-					<li><img src="images/banners/banner1_remates.jpg" alt="" /></li>
-					<li><img
-						src="images/banners/banner2_ofrecimiento_financiamiento.jpg"
-						alt="" /></li>
-					<li><img src="images/banners/banner3_contactenos.jpg" alt="" /></li>
-				</ul>
 			</div>
 		</div>
 	</div>

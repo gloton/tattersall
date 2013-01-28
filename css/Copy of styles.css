@@ -106,21 +106,21 @@ hr {
 	}
 /*************************
 ******SECCION GALERIA*******/
-	#wrap_galery div.muestra {
+	#sec_galeria div.muestra {
 	    float: left;
 	    margin-bottom: 23px;
 	    width: 469px;
 	}
-	#wrap_galery div.muestra div.muestra_top {
+	#sec_galeria div.muestra div.muestra_top {
 	    background-color: #D9D9D9;
 	    height: 394px;
 	    padding-bottom: 10px;
 	}
-	#wrap_galery div.muestra .muestra_top .contenedor_title {
+	#sec_galeria div.muestra .muestra_top .contenedor_title {
 		width: 442px;
 		margin: 0 auto;
 	}
-	#wrap_galery div.muestra div.muestra_top .muestra_title {
+	#sec_galeria div.muestra div.muestra_top .muestra_title {
 		color: #FFFFFF;
 		font-family: Arial,Helmet,Freesans,sans-serif ;
 		font-size: 18px;
@@ -132,66 +132,66 @@ hr {
 		padding-left: 18px;
 		width: 424px;
 	}
-	#wrap_galery div.muestra .galeria_raya {
+	#sec_galeria div.muestra .galeria_raya {
 	    background-color: #FFFFFF;
 	    height: 3px;
 	}
-	#wrap_galery div.muestra_top .wrap_muestra_main {
+	#sec_galeria div.muestra_top .wrap_muestra_main {
 		background: url("../images/home/bg_img_ppal_propiedades.jpg") repeat-y scroll 0 0 transparent;
 		height: 354px;
 	}
-	#wrap_galery div.muestra div.muestra_top .muestra_main {
+	#sec_galeria div.muestra div.muestra_top .muestra_main {
 	    height: 332px;
 	    margin: 0 auto;
 	    padding-top: 10px;
 	    width: 442px;
 	}
-	#wrap_galery div.muestra div.muestra_low #thums_propiedades li {
+	#sec_galeria div.muestra div.muestra_low #thums_propiedades li {
 		height: 107px;
 		width: 145px;
 		float: left;
 		margin-left: 17px;
 	}
-	#wrap_galery div.muestra div.muestra_low .muestra_thum {
+	#sec_galeria div.muestra div.muestra_low .muestra_thum {
 		padding-top: 24px;
 	}
-	#wrap_galery div.muestra div.muestra_low .muestra_thum #thums_propiedades li:FIRST-CHILD {
+	#sec_galeria div.muestra div.muestra_low .muestra_thum #thums_propiedades li:FIRST-CHILD {
 		margin-left: 0;
 	}
-	#wrap_galery div.muestra div.muestra_low .muestra_thum #thums_propiedades li: {
+	#sec_galeria div.muestra div.muestra_low .muestra_thum #thums_propiedades li: {
 		margin-left: 0;
 	}	
 		/*galeria izquierda*/
-	#wrap_galery .muestra .muestra_top .wrap_contenedor_title {
+	#sec_galeria .muestra .muestra_top .wrap_contenedor_title {
 		background: url("../images/home/bg_titulo_propiedades.jpg") repeat-y scroll 0 0 transparent;
 		height: 50px;
 		padding-top: 9px;
 		width: 467px;
 	}
-	#wrap_galery #galeria_izq.muestra .muestra_top .contenedor_title {
+	#sec_galeria #galeria_izq.muestra .muestra_top .contenedor_title {
 		background:url("../images/home/bg_interior_title_off.jpg") repeat-x;	
 	}
-	#wrap_galery #galeria_izq.muestra .muestra_top .contenedor_title.overtitle {
+	#sec_galeria #galeria_izq.muestra .muestra_top .contenedor_title.overtitle {
 		background:url("../images/home/bg_interior_title_on.jpg") repeat-x;
 		cursor: pointer;
 	}	
-	#wrap_galery #galeria_izq.muestra .muestra_top .contenedor_title .muestra_title {
+	#sec_galeria #galeria_izq.muestra .muestra_top .contenedor_title .muestra_title {
 		background:url("../images/icon_title_propiedades.png") no-repeat scroll 351px 4px transparent;
 	}
 	
 		/*galeria derecha*/
-	#wrap_galery #galeria_der.muestra .muestra_top .contenedor_title {
+	#sec_galeria #galeria_der.muestra .muestra_top .contenedor_title {
 		background:url("../images/home/bg_interior_title_der_off.jpg") repeat-x;	
 	}
-	#wrap_galery #galeria_der.muestra .muestra_top .contenedor_title.overtitle {
+	#sec_galeria #galeria_der.muestra .muestra_top .contenedor_title.overtitle {
 		background:url("../images/home/bg_interior_title_der_on.jpg") repeat-x;
 		cursor: pointer;
 	}		
 	
-	#wrap_galery #galeria_der.muestra .muestra_top .contenedor_title .muestra_title {
+	#sec_galeria #galeria_der.muestra .muestra_top .contenedor_title .muestra_title {
 		background:url("../images/icon_title_maquinas.png") no-repeat scroll 317px 2px transparent;
 	}
-	#wrap_galery div#galeria_der {
+	#sec_galeria div#galeria_der {
 		margin-left: 22px;
 	}
 /*************************
@@ -212,13 +212,8 @@ hr {
 	text-align: center;
 }
 	/*noticias destacadas*/
-	#sec_contenido div.wrap #wrap_noti_dest {
-		height: 360px;
-		width: 100%;
-		background-color: RED;
-	}
 	#sec_contenido {
-	    margin-top: 0px;
+	    margin-top: 4px;
 	}
 	#sec_contenido div.wrap {
 	    height: inherit;
