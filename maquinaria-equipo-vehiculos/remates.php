@@ -109,7 +109,7 @@ $(document).ready( function (){
 							</li>
 							<li>
 								<div class="info_rem_side">
-									<h4 class=""date_rem"">Jueves 17 de Ene 2013</h4>
+									<h4 class="date_rem">Jueves 17 de Ene 2013</h4>
 									<p class="detalle">Parcelas Colchagua, Camarico 5 Parcelas: Parcela n°62, 6.146m2; Parcela n°63, 
 									8,128m2: Parcela
 									</p>
@@ -117,7 +117,7 @@ $(document).ready( function (){
 							</li>
 							<li>
 								<div class="info_rem_side">
-									<h4 class=""date_rem"">Jueves 17 de Ene 2013</h4>
+									<h4 class="date_rem">Jueves 17 de Ene 2013</h4>
 									<p class="detalle">Valdivia, Terreno Insdustrial/Habitacional Zona ZU-6, Superficie: 114.000m2, 
 									Frente a calle
 									</p>
@@ -125,7 +125,7 @@ $(document).ready( function (){
 							</li>
 							<li>
 								<div class="info_rem_side">
-									<h4 class=""date_rem"">Jueves 17 de Ene 2013</h4>
+									<h4 class="date_rem">Jueves 17 de Ene 2013</h4>
 									<p class="detalle">Paillaco, Unidad Económica Aserradero - Galpones - Oficinas, Completo Inventario, 
 									Superficie
 									</p>
