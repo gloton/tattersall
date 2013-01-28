@@ -86,6 +86,15 @@ $(document).ready( function (){
 					</div>
 					</div>
 				</div>
+				<div class="col_left">
+					<div id="ver_propiedades">
+						<div class="tituProp">Propiedades</div>
+						<div class="flecha"><a href="javascript:void(0);"><img src="../images/flecha-circulo.png" alt="" /></a></div>
+					</div>
+					<div class="banners">
+						<img id="banner_financiamiento" src="../images/banners/banner_necesita_financiamiento181X132.jpg" alt="" />
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
