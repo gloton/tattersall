@@ -76,7 +76,7 @@ $(document).ready( function (){
 			<div id="wrap_remates" style="min-height: 700px;">
 				<div id="tabs-mev" class="tabBox" style="clear:both;">
 					<div class="tabArea">
-						<a class="tab" href="../tabs/tabs-paginas/tab-remates.html" target="tabIframe2">Remates</a>
+						<a class="tab" href="../tabs/tabs-paginas/tab-remates.html" target="tabIframe2" style="margin-left: 10px;">Remates</a>
 						<a class="tab" href="../tabs/tabs-paginas/tab-venta-directa.html" target="tabIframe2">Venta Directa</a>
 						<a class="tab" href="../tabs/tabs-paginas/tab-remate-online.html" target="tabIframe2">Remate On-Line</a>
 					</div>

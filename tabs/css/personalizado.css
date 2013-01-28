@@ -8,7 +8,7 @@ body {
 	margin: 0;
 }
 #tabs-mev {
-	width: 760px;
+	width: 763px;
 }
 div.tabArea {
 	background: url("../images/bg_wrap_tabs.jpg") repeat-y scroll 0 0 transparent;
@@ -24,7 +24,7 @@ a.tab, a.tab:visited {
 	font-size: 18px;
 	height: 40px;
 	line-height: 36px;
-	margin: 0 5px;
+	margin: 0 4px;
 	padding: 0;
 	text-align: center;
 	width: 240px;
