@@ -66,3 +66,9 @@
 	padding: 5px 0;
 	width: 169px;
 }
+.col_right div#prox_rem_side div#ver_mas_rem {
+	background-color: #EEEBEA;
+	height: 15px;
+	padding-right: 5px;
+	padding-top: 5px;
+}

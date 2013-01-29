@@ -126,13 +126,20 @@ $(document).ready( function (){
 							<li>
 								<div class="info_rem_side">
 									<h4 class="date_rem">Jueves 17 de Ene 2013</h4>
-									<p class="detalle">Paillaco, Unidad Económica Aserradero - Galpones - Oficinas, Completo Inventario, 
+									<p class="detalle" style="margin-bottom: 0;">Paillaco, Unidad Económica Aserradero - Galpones - Oficinas, Completo Inventario, 
 									Superficie
 									</p>
 								</div>							
 							</li>
 						</ul>
-					</div>					
+						<div id="ver_mas_rem"><a href="javascript:void(0);" id="link_vermas_remates"><img src="../images/read_more8px.png" alt="" style="float: right;" /></a></div>
+					</div>
+					<div class="banners" style="margin-top: 10px;">
+						<img id="banner_contactenos_rem" src="../images/banners/banner3_contactenos182x79.jpg" alt="" />
+					</div>		
+					<div class="banners" style="margin-top: 10px;">
+						<img id="banner_contactenos_rem" src="../images/banners/como_participar_remate182x132.jpg" alt="" />
+					</div>														
 				</div>
 			</div>
 		</div>
