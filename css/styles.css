@@ -214,8 +214,6 @@ hr {
 	/*noticias destacadas*/
 	#sec_contenido div.wrap #wrap_noti_dest {
 		height: 360px;
-		width: 100%;
-		background-color: RED;
 	}
 	#sec_contenido {
 	    margin-top: 0px;
