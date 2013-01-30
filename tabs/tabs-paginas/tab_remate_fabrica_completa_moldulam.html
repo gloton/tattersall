@@ -41,16 +41,47 @@ img {
 	height: inherit;
 	width: 374px;
 }
-#wrap_ficha #ficha_producto #bloq_izq {
-	float: left;
-	height: 405px;/*325+80*/
-	width: 431px;
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto {
+	background-color: #E2E2E2;
+	height: 67px;
+	margin-top: 12px;
+	width: 428px;
 }
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li {
+	float: left;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_1 {
+	background: url("../../images/icono-menu-catalogo.png") no-repeat scroll 0 0 transparent;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_2 {
+	background: url("../../images/icono-menu-bases.png") no-repeat scroll 0 0 transparent;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_3 {
+	background: url("../../images/icono-menu-como-llegar.png") no-repeat scroll 0 0 transparent;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_4 {
+	background: url("../../images/icono-menu-contacto.png") no-repeat scroll 0 0 transparent;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li a{
+	color: #666666;
+	font-family: Arial,Helmet,Freesans,sans-serif ;
+	font-size: 11px;
+	letter-spacing: 0.03em;
+	line-height: 20px;
+	padding-left: 18px;
+	text-decoration: none;
+}
+
 #wrap_ficha #ficha_producto #bloq_der {
 	float: left;
 	height: 405px;
 	margin-left: 15px;
 	width: 259px;
+}
+#wrap_ficha #ficha_producto #bloq_izq {
+	float: left;
+	height: 405px;/*325+80*/
+	width: 431px;
 }
 #wrap_ficha #ficha_producto #bloq_izq #img_ppal img {
 	border: 3px solid #E5E5E5;
@@ -121,10 +152,10 @@ img {
 				<div id="bloq_izq">
 					<div id="img_ppal"><img src="../../images/maquinarias-equipos-vehiculos/remates-fabrica-moldulam-ficha.jpg" alt="" /></div>
 					<ul id="menu_producto">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li id="menu_ficha_1"><a href=""><span>CATÁLOGO</span></a></li>
+						<li id="menu_ficha_2"><a href=""><span>BASES</span></a></li>
+						<li id="menu_ficha_3"><a href=""><span>COMO LLEGAR</span></a></li>
+						<li id="menu_ficha_4"><a href=""><span>CONTACTO</span></a></li>
 					</ul>
 				</div>
 				<div id="bloq_der">
