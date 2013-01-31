@@ -35,13 +35,15 @@ a.tab.activeTab {
     top: 1px;
     z-index: 102;
 }
-a.tab.activeTab, a.tab.activeTab:hover, a.tab.activeTab:visited {
+a.tab.activeTab, a.tab.activeTab:visited {
 	background: url("../images/bg_tab_active.jpg") repeat-x scroll 0 3px transparent !important;
 	height: 45px;
     border-color: #B090E0 #7050A0 #7050A0 #B090E0;
     color: #FFFFFF;
 }
-
+a.tab:hover {
+	background-color: #BBD333;
+}
 div.tabMain {
 	background-color: transparent;
 	border-top: 4px solid #ABC700;
