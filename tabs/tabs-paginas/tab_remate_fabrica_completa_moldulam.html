@@ -147,6 +147,53 @@ img {
 	font-size: 13px;
 	line-height: 14px;
 }
+ #mail_print {
+    background: url("../../images/social/bg_mail_print80X50.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 33px;
+    padding-top: 17px;
+    width: 80px;
+}
+/*loteo*/
+.wrap_pag_tab #loteo {
+	background-color: #FFFFFF;
+	border-bottom: 2px solid #CCCCCC;
+	height: 441px;
+	margin: 0 auto;
+	padding-left: 18px;
+	width: 722px;
+	color: #A3B71F;
+}
+.wrap_pag_tab #loteo h3 {
+	color: #A3B71F;
+	font-family: Arial,Helmet,Freesans,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	height: 42px;
+	line-height: 36px;
+	padding-left: 18px;
+	width: 722px;
+}
+.wrap_pag_tab #loteo #top_loteo{
+	border-bottom: 2px solid #CCCCCC;
+	height: 42px;
+	padding-top: 24px;
+	width: 722px;
+}
+.wrap_pag_tab #loteo #top_loteo #top_loteo_izq {
+	width: 122px;
+	float: left;
+}
+.wrap_pag_tab #loteo #top_loteo #top_loteo_der {
+	float: left;
+	text-align: right;
+	width: 580px;
+}
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra {
+	width: 342px;
+	height: 129px;
+	background-color: #F3F3F3;
+}
 </style>
 </head>
 <body>
@@ -156,7 +203,12 @@ img {
 			<div class="externalizacion">
 				<div id="enviar_mail_print">
 				</div>
-				<div id="compartir"><img src="../../images/maquinarias-equipos-vehiculos/mail_print_social.jpg" alt="" />
+				<div id="compartir">
+					<div id="mail_print">
+						<a href="javascript:void(0);"><img src="../../images/icono-enviar-mail.jpg" alt="" /></a>
+						<a href="javascript:void(0);"><img src="../../images/icono-imprimir.jpg" alt="" /></a>
+					</div>
+					<img src="../../images/social/redes-sociales286X50.jpg" alt="" style="float: right;" />
 				</div>
 			</div>
 		</div>
@@ -205,7 +257,21 @@ img {
 					</div>
 				</div>
 			</div>
-		</div>		
+		</div>	
+		<div id="loteo">
+			<div id="top_loteo">
+				<div id="top_loteo_izq">
+					<h3>LOTEO</h3>
+				</div>
+				<div id="top_loteo_der">
+					<img src="../../images/btn_loteo.jpg" alt="" />
+				</div>
+			</div>
+			<div id="muestra_paginas">
+				<div class="box_muestra">
+				</div>
+			</div>
+		</div>	
 	</div>
 </body>
 </html>

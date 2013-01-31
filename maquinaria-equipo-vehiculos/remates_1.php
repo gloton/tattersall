@@ -72,7 +72,7 @@ $(document).ready( function (){
 		</div>
 	</div>
 	<div class="clearfix"></div>
-	<div id="sec_contenido">
+	<div id="sec_contenido" style="height: 1500px;">
 		<div class="wrap">
 			<div id="wrap_remates" style="min-height: 700px;">
 				<div id="tabs-mev" class="tabBox" style="clear:both;">
@@ -83,7 +83,7 @@ $(document).ready( function (){
 					</div>
 					<div class="tabMain">
 					<div class="tabIframeWrapper">
-						<iframe class="tabContent" name="tabIframe2" src="../tabs/tabs-paginas/tab_remate_fabrica_completa_moldulam.html" marginheight="8" marginwidth="8" frameborder="0"></iframe>
+						<iframe class="tabContent" name="tabIframe2" src="../tabs/tabs-paginas/tab_remate_fabrica_completa_moldulam.html" style="height: 1450px;" marginheight="8" marginwidth="8" frameborder="0"></iframe>
 					</div>
 					</div>
 				</div>
