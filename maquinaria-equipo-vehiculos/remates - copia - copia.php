@@ -38,10 +38,7 @@ $(document).ready( function (){
 });
 </script>
 <style type="text/css">
-.col_right {
-	width: 181px;
-	height: 300px;
-}
+
 </style>
 </head>
 
