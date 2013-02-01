@@ -400,3 +400,14 @@ hr {
     padding: 20px;
     text-align: center;
 }
+
+/*jagl 01/02/2013 inicio
+definicion del ancho de la columna derecha. Si no esta esta regla, funciona en chorme y en firefox, pero no en ie
+*/
+.col_right {
+    height: 300px;
+    width: 181px;
+}
+/*jagl 01/02/2013 inicio
+definicion del ancho de la columna derecha. Si no esta esta regla, funciona en chorme y en firefox, pero no en ie
+*/
