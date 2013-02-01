@@ -37,6 +37,20 @@ $(document).ready( function (){
 	});	
 });
 </script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		//Aqui va el código del efecto
+		$('#ver_propiedades').hover(
+				function() {
+				$('#img_flecha_propiedades').attr("src","http://localhost/tattersall/images/flecha-circulo-blanco.png");
+				},
+				function() {
+				$('#img_flecha_propiedades').attr("src","http://localhost/tattersall/images/flecha-circulo.png");
+				}
+				);
+		
+	});
+</script>
 </head>
 
 <body>
@@ -88,9 +102,9 @@ $(document).ready( function (){
 					</div>
 				</div>
 				<div class="col_right">
-					<div id="ver_propiedades">
+					<div id="ver_propiedades" style="cursor: pointer;">
 						<div class="tituProp">Propiedades</div>
-						<div class="flecha"><a href="javascript:void(0);"><img src="http://localhost/tattersall/images/flecha-circulo.png" alt="" /></a></div>
+						<div class="flecha"><a href="javascript:void(0);"><img id="img_flecha_propiedades" src="http://localhost/tattersall/images/flecha-circulo.png" alt="" /></a></div>
 						<div class="clearfix"></div>
 					</div>
 					<div class="banners">

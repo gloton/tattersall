@@ -3,11 +3,13 @@
 	width: 960px;
 }
 div.clearfix{
-     clear:both;
-     content: ".";
-     display:block;
-     height:1px;
-     width:1px;
+	clear:both;
+	content: ".";
+	display:block;
+	height:1px;
+	width:1px;
+	background-color: #FFFFFF;
+	
 }
 body {
 	font-family: 'Arial Narrow','Nimbus Sans L',sans-serif ;
