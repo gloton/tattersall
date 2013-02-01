@@ -79,6 +79,7 @@ img {
 }
 
 #wrap_ficha #ficha_producto #bloq_der {
+	border: 1px solid #BACD3B;
 	float: left;
 	height: 405px;
 	margin-left: 15px;
@@ -97,33 +98,41 @@ img {
 	border-bottom: 1px solid #A3B71F;
 }
 #wrap_ficha #ficha_producto #bloq_der div#date ul {
-	color: #a3b71f;
+	color: #A3B71F;
 	font-family: Arial,Helmet,Freesans,sans-serif;
 	font-size: 14px;
+	font-weight: bold;
+	padding-left: 6px;
+	padding-top: 6px;
 }
 #wrap_ficha #ficha_producto #bloq_der div#date ul li {
 	height: 20px;
 }
 #wrap_ficha #ficha_producto #bloq_der div#date ul li span{
 	color: #333333;
+	font-weight: normal;
 }
 #wrap_ficha #ficha_producto #bloq_der #wrap_texto {
 	height: 147px;
 }
 #wrap_ficha #ficha_producto #bloq_der #wrap_texto > p {
 	color: #666666;
-	font-family: Arial,Helmet,Freesans,sans-serif ;
+	font-family: Arial,Helmet,Freesans,sans-serif;
 	font-size: 13px;
 	line-height: 16px;
 	margin-bottom: 16px;
-	margin-top: 16px;
+	margin-top: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
 }
 #wrap_ficha #ficha_producto #bloq_der #info_relevante {
 	background-color: #C7DF2E;
-	height: 175px;
+	height: 182px;
+	margin-left: 4px;
+	margin-right: 4px;
 	padding-left: 8px;
 	padding-top: 15px;
-	width: 251px;
+	width: 243px;
 }
 #wrap_ficha #ficha_producto #bloq_der #info_relevante li {
 	margin-bottom: 4px;
@@ -159,7 +168,7 @@ img {
 .wrap_pag_tab #loteo h3 {
 	color: #A3B71F;
 	font-family: Arial,Helmet,Freesans,sans-serif;
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: bold;
 	height: 42px;
 	line-height: 36px;
@@ -168,7 +177,7 @@ img {
 }
 .wrap_pag_tab #loteo #top_loteo{
 	border-bottom: 2px solid #CCCCCC;
-	height: 42px;
+	height: 36px;
 	padding-top: 24px;
 	width: 722px;
 }
