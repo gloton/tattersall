@@ -1,0 +1,241 @@
+img {
+	border: none;
+}
+.wrap_pag_tab #wrap_ficha {
+	background-color: #FFFFFF;
+	height: 441px;
+	margin: 0 auto;
+	padding-left: 18px;
+	width: 722px;
+}
+.wrap_pag_tab #wrap_ficha h2 {
+	color: #333333;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+#detalles_remate {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  width: 740px;
+}
+#detalles_remate div.externalizacion {
+  height: 60px;
+  padding-bottom: 12px;
+  padding-top: 2px;
+}
+#detalles_remate div.externalizacion #enviar_mail_print {
+	float: left;
+	height: inherit;
+	width: 354px;
+}
+#detalles_remate div.externalizacion #compartir {
+	float: left;
+	height: inherit;
+	width: 374px;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto {
+	background-color: #E2E2E2;
+	height: 67px;
+	margin-top: 12px;
+	width: 428px;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li {
+    float: left;
+    height: 43px;
+    padding-top: 0;
+}
+
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_1 {
+	background: url("../../images/icono-menu-catalogo.png") no-repeat scroll 22px 17px transparent;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_2 {
+	background: url("../../images/icono-menu-bases.png") no-repeat scroll 23px 17px transparent;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_2 a {
+	background: url("../../images/bg-separacion-menu-ficha.png") no-repeat scroll 10px 9px transparent;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_3 {
+	background: url("../../images/icono-menu-como-llegar.png") no-repeat scroll 26px 17px transparent;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_3 a {
+	background: url("../../images/bg-separacion-menu-ficha.png") no-repeat scroll 13px 9px transparent;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_4 {
+	background: url("../../images/icono-menu-contacto.png") no-repeat scroll 18px 17px transparent;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_4 a {
+	background: url("../../images/bg-separacion-menu-ficha.png") no-repeat scroll 8px 9px transparent;
+}
+#wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li a{
+	color: #666666;
+	display: block;
+	font-family: Arial,Helmet,Freesans,sans-serif;
+	font-size: 11px;
+	height: 61px;
+	letter-spacing: 0.03em;
+	line-height: 60px;
+	padding-left: 44px;
+	text-decoration: none;
+}
+
+#wrap_ficha #ficha_producto #bloq_der {
+	float: left;
+	height: 405px;
+	margin-left: 15px;
+	width: 259px;
+}
+#wrap_ficha #ficha_producto #bloq_izq {
+	float: left;
+	height: 405px;/*325+80*/
+	width: 431px;
+}
+#wrap_ficha #ficha_producto #bloq_izq #img_ppal img {
+	border: 3px solid #E5E5E5;
+}
+#wrap_ficha #ficha_producto #bloq_der #date {
+	height: 50px;
+	border-bottom: 1px solid #A3B71F;
+}
+#wrap_ficha #ficha_producto #bloq_der div#date ul {
+	color: #a3b71f;
+	font-family: Arial,Helmet,Freesans,sans-serif;
+	font-size: 14px;
+}
+#wrap_ficha #ficha_producto #bloq_der div#date ul li {
+	height: 20px;
+}
+#wrap_ficha #ficha_producto #bloq_der div#date ul li span{
+	color: #333333;
+}
+#wrap_ficha #ficha_producto #bloq_der #wrap_texto {
+	height: 147px;
+}
+#wrap_ficha #ficha_producto #bloq_der #wrap_texto > p {
+	color: #666666;
+	font-family: Arial,Helmet,Freesans,sans-serif ;
+	font-size: 13px;
+	line-height: 16px;
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+#wrap_ficha #ficha_producto #bloq_der #info_relevante {
+	background-color: #C7DF2E;
+	height: 175px;
+	padding-left: 8px;
+	padding-top: 15px;
+	width: 251px;
+}
+#wrap_ficha #ficha_producto #bloq_der #info_relevante li {
+	margin-bottom: 4px;
+}
+#wrap_ficha #ficha_producto #bloq_der #info_relevante h5 {
+	color: #FFFFFF;
+	font-weight: bold;
+	line-height: 18px;
+}
+#wrap_ficha #ficha_producto #bloq_der #info_relevante p {
+	color: #333333;
+	font-family: font-family: 'Arial Narrow','Nimbus Sans L',sans-serif ;
+	font-size: 13px;
+	line-height: 14px;
+}
+ #mail_print {
+    background: url("../../images/social/bg_mail_print80X50.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 33px;
+    padding-top: 17px;
+    width: 80px;
+}
+/*loteo*/
+.wrap_pag_tab #loteo {
+	background-color: #FFFFFF;
+	color: #A3B71F;
+	height: 870px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-left: 18px;
+	width: 722px;
+}
+.wrap_pag_tab #loteo h3 {
+	color: #A3B71F;
+	font-family: Arial,Helmet,Freesans,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	height: 42px;
+	line-height: 36px;
+	padding-left: 18px;
+	width: 722px;
+}
+.wrap_pag_tab #loteo #top_loteo{
+	border-bottom: 2px solid #CCCCCC;
+	height: 42px;
+	padding-top: 24px;
+	width: 722px;
+}
+.wrap_pag_tab #loteo #top_loteo #top_loteo_izq {
+	width: 122px;
+	float: left;
+}
+.wrap_pag_tab #loteo #top_loteo #top_loteo_der {
+	float: left;
+	text-align: right;
+	width: 580px;
+}
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra {
+	width: 342px;
+	height: 129px;
+	background-color: #F3F3F3;
+	float: left;
+}
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra.col_izq {
+	margin-top:10px;
+	margin-left:0;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra.col_der {
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:0;
+	margin-bottom:10px;
+}
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra .thumb {
+	float: left;
+	height: 119px;
+	padding-left:8px;
+	padding-top:10px;
+	width: 152px;
+}
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra .detallebox {
+	float: left;
+	height: 129px;
+	width: 182px;
+}
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra .detallebox .title_box {
+	height: 82px;
+	padding-top: 8px;
+	padding-right: 8px;
+}
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra .detallebox .title_box h4 {
+	width: 148px;
+	color: #333333;
+}
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra .detallebox .ver_fichas {
+	text-align: right;
+}
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra .detallebox .ver_fichas a,
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra .detallebox .ver_fichas a:VISITED {
+	color: #a3b71f;
+}
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra .detallebox .ver_fichas p {
+	background: url("../../images/maquinarias-equipos-vehiculos/icono-ver-ficha.png") no-repeat scroll 77px 5px transparent;
+	float: right;
+	height: 40px;
+	line-height: 36px;
+	text-align: left;
+	width: 108px;
+}
+
+.wrap_pag_tab #loteo #muestra_paginas .box_muestra .detallebox .ver_fichas {
+	height: 39px;
+}

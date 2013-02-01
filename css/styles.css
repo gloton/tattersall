@@ -17,7 +17,6 @@ hr {
   height: 1px;
   width: 100%;
 }
-
 /*************************
 ******SECCION MENU*******/
 	/*menu*/
@@ -408,6 +407,15 @@ definicion del ancho de la columna derecha. Si no esta esta regla, funciona en c
     height: 300px;
     width: 181px;
 }
-/*jagl 01/02/2013 inicio
+/*jagl 01/02/2013 fin
 definicion del ancho de la columna derecha. Si no esta esta regla, funciona en chorme y en firefox, pero no en ie
+*/
+/*jagl 01/02/2013 inicio
+evitar el reset
+*/
+strong {
+	font-weight: bold;
+}
+/*jagl 01/02/2013 fin
+
 */
