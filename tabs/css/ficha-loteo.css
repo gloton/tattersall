@@ -37,9 +37,9 @@ img {
 	background-color: #E2E2E2;
 	height: 67px;
 	margin-top: 12px;
-	padding-right: 10px;
+	padding-right: 15px;
 	text-align: center;
-	width: 418px;
+	width: 413px;
 }
 #wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li {
     display: inline-block;
@@ -73,6 +73,7 @@ img {
 	background: url("../../images/bg-separacion-menu-ficha.png") no-repeat scroll 13px 9px transparent;
 	height: 50px;
 	padding-top: 16px;
+	text-align: left;
 }
 #wrap_ficha #ficha_producto #bloq_izq ul#menu_producto > li#menu_ficha_4 {
 	background: url("../../images/icono-menu-contacto.png") no-repeat scroll 18px 17px transparent;
@@ -142,7 +143,7 @@ img {
 }
 #wrap_ficha #ficha_producto #bloq_der #info_relevante {
 	background-color: #C7DF2E;
-	height: 226px;
+	height: 229px;
 	margin-left: 4px;
 	margin-right: 4px;
 	padding-left: 8px;
@@ -153,9 +154,11 @@ img {
 	margin-bottom: 4px;
 }
 #wrap_ficha #ficha_producto #bloq_der #info_relevante h5 {
+	background: url("../../images/bullets5px.png") no-repeat scroll 1px 9px transparent;
 	color: #FFFFFF;
 	font-weight: bold;
 	line-height: 18px;
+	padding-left: 8px;
 }
 #wrap_ficha #ficha_producto #bloq_der #info_relevante p {
 	color: #333333;
@@ -197,8 +200,8 @@ img {
 	width: 740px;
 }
 .wrap_pag_tab #loteo #top_loteo #top_loteo_izq {
-	width: 122px;
 	float: left;
+	width: 145px;
 }
 .wrap_pag_tab #loteo #top_loteo #top_loteo_der {
 	float: left;
