@@ -10,7 +10,6 @@
 <script type="text/javascript" src="../js/tabbed.js"></script>
 <style type="text/css">
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der {
-	background-color: red;
 	border: 1px solid #BACD3B;
 	float: left;
 	height: 390px;
@@ -20,10 +19,8 @@
 	height: 278px;
 	width: 100px;
 	margin: 0 auto;
-	background-color: blue;
 }
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der ul#lst_side_der li {
-	background-color: #F1F1F1;
 	margin-bottom: 5px;
 	width: 100px;
 	cursor: pointer;
@@ -34,7 +31,7 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 	font-size: 11px;
 	margin: 0 auto;
 	text-align: center;
-	width: 77px;
+	width: 86px;
 	font-family: Arial,Helvética sans serif;
 }
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der ul#lst_side_der li span {
@@ -44,26 +41,126 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 	margin: 0 auto;
 }
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der ul#lst_side_der .vd_sl {
-	height: 38px;
-	padding-top: 9px;
+	height: 31px;
+	padding-top: 16px;
+	background: url("../../images/icono_flecha_abajo.png") no-repeat scroll 42px 35px #F1F1F1;
 }
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der ul#lst_side_der .vd_dl {
     height: 46px;
     padding-top: 13px;
+	background: url("../../images/icono_flecha_abajo.png") no-repeat scroll 42px 47px #F1F1F1;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der ul#lst_side_der .vd_dl span {
+    width: 82px;
 }
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der #title_bienes_der {
-  background: url("../../images/bg_title_bienes_der.jpg") no-repeat scroll 0 0 red;
+  background: url("../../images/bg_title_bienes_der.jpg") no-repeat scroll 0 0 transparent;
   height: 42px;
   width: 130px;
   padding-top: 14px;
 }
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta {
+	float: left;
 	height: 390px;
-	width: 576px;
-	background-color: yellow;
+	margin-left: 18px;
+	width: 558px;
+}
+.wrap_pag_tab div#wrap_ficha #side_der #vd_bajar_listado {
+	background: url("../../images/icono-hoja16X20.png") no-repeat scroll 0 0 transparent;
+	color: #454545;
+	font-size: 9px;
+	font-weight: bolder;
+	height: 26px;
+	line-height: 18px;
+	margin: 18px auto 0;
+	padding-left: 20px;
+	width: 84px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top {
+	height: 300px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #img_ppal {
+	width: 400px;
 	float: left;
 }
-
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #detalle_pro {
+	width: 158px;
+	height: 300px;
+	float: left;
+	font-family: Arial,Helvética sans serif;
+	background-color: #E2E2E2;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #detalle_pro #title_nom {
+	border-bottom: 1px solid #BACD3B;
+	height: 72px;
+	margin-left: 10px;
+	padding-top: 10px;
+	width: 133px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #detalle_pro #title_nom h3 {
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 0;
+	width: 133px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #detalle_pro #precio_prod_ppal {
+	border-bottom: 1px solid #BACD3B;
+	height: 106px;
+	margin-left: 10px;
+	padding-top: 10px;
+	width: 133px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #detalle_pro #precio_prod_ppal #muestra_precio {
+	color: #a3b71f;
+	font-size: 14px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #detalle_pro #precio_prod_ppal #muestra_cifra {
+	color: #333333;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 7px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #detalle_pro #precio_prod_ppal #muestra_iva {
+	color: #333333;
+	font-size: 18px;
+	margin-top: 7px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #detalle_pro #ver_ficha {
+	height: 39px;
+	padding-top: 60px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #detalle_pro #ver_ficha p {
+	background: url("../../images/maquinarias-equipos-vehiculos/icono-ver-ficha.png") no-repeat scroll 77px 5px transparent;
+	float: right;
+	height: 40px;
+	line-height: 36px;
+	text-align: left;
+	width: 108px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #detalle_pro #ver_ficha a,
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_top #detalle_pro #ver_ficha a:VISITED
+{
+	color: #A3B71F;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_bajo {
+	height: 30px;
+	padding-top: 16px;
+	width: 558px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_bajo #anterior {
+	float: left;
+	padding-left: 39px;
+	width: 240px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_bajo #siguiente {
+	float: left;
+	padding-right: 40px;
+	width: 239px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_bajo #siguiente img {
+	float: right;
+}
 </style>
 </head>
 <body>
@@ -85,7 +182,9 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 		<div id="wrap_ficha">
 			<div id="wrap_vent_directa">
 				<div id="side_der">
-					<div id="title_bienes_der"></div>
+					<div id="title_bienes_der">
+						<p>109 Bienes en Venta Directa</p>
+					</div>
 					<ul id="lst_side_der">
 						<li class="vd_sl"><a href="javascript:void(0);"><span>Equipos y otros</span></a></li>
 						<li class="vd_sl"><a href="javascript:void(0);"><span>Maquinarias</span></a></li>
@@ -93,8 +192,32 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 						<li class="vd_dl"><a href="javascript:void(0);"><span>Vehículo Liviano</span></a></li>
 						<li class="vd_dl"><a href="javascript:void(0);"><span>Vehículo Pesado</span></a></li>
 					</ul>
+					<div id="vd_bajar_listado">Descargar Listado</div>
 				</div>
-				<div id="muestra_venta"></div>
+				<div id="muestra_venta">
+					<div id="muestra_producto">
+						<div id="producto_top">
+							<div id="img_ppal">
+								<img src="../../images/maquinarias-equipos-vehiculos/grua-pluma-grove-gmkk5130.jpg" alt="Grua pluma grove" />
+							</div>
+							<div id="detalle_pro">
+								<div id="title_nom"><h3>GRUA PLUMA GROVE GMK5130</h3></div>
+								<div id="precio_prod_ppal">
+									<p id="muestra_precio">PRECIO</p>
+									<p id="muestra_cifra">5.700.000</p>
+									<p id="muestra_iva">+ IVA</p>
+								</div>
+								<div id="ver_ficha">
+									<a href="javascript:void(0);"><p>VER FICHA</p></a>							
+								</div>
+							</div>
+						</div>
+						<div id="producto_bajo">
+							<div id="anterior"><a href="javascript:void(0);"><img src="../../images/flecha-anterior8x15.png" alt="Flecha anterior" /></a></div>
+							<div id="siguiente"><a href="javascript:void(0);"><img src="../../images/flecha-siguiente8x15.png" alt="Flecha siguiente" /></a></div>
+						</div>						
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
