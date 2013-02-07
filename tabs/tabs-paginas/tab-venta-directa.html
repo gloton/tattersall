@@ -1,29 +1,102 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title></title>
+<title>Venta Directa</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="../../css/reset.css" rel="stylesheet" type="text/css" />
 <link href="../css/tabbed.css" rel="stylesheet" type="text/css" />
 <link href="../css/tabs-tattersall.css" rel="stylesheet" type="text/css" />
+<link href="../css/ficha-loteo.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="../js/tabbed.js"></script>
 <style type="text/css">
-#wrap_pag_tab {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  width: 740px;
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der {
+	background-color: red;
+	border: 1px solid #BACD3B;
+	float: left;
+	height: 390px;
+	width: 130px;
 }
-#wrap_pag_tab div.externalizacion {
-	height: 68px;
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der ul#lst_side_der {
+	height: 278px;
+	width: 100px;
+	margin: 0 auto;
+	background-color: blue;
 }
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der ul#lst_side_der li {
+	background-color: #F1F1F1;
+	margin-bottom: 5px;
+	width: 100px;
+	cursor: pointer;
+}
+html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#lst_side_der li a {
+	color: #454545;
+	display: block;
+	font-size: 11px;
+	margin: 0 auto;
+	text-align: center;
+	width: 77px;
+	font-family: Arial,Helvética sans serif;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der ul#lst_side_der li span {
+	display: block;
+	font-weight: bold;
+	line-height: 14px;
+	margin: 0 auto;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der ul#lst_side_der .vd_sl {
+	height: 38px;
+	padding-top: 9px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der ul#lst_side_der .vd_dl {
+    height: 46px;
+    padding-top: 13px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der #title_bienes_der {
+  background: url("../../images/bg_title_bienes_der.jpg") no-repeat scroll 0 0 red;
+  height: 42px;
+  width: 130px;
+  padding-top: 14px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta {
+	height: 390px;
+	width: 576px;
+	background-color: yellow;
+	float: left;
+}
+
 </style>
 </head>
 <body>
-	<span class="tab_breadcroumbs">Tattersall &gt; Maquinarias, Equipos y Vehículos &gt; <strong>Venta Directa</strong></span>
-<div id="wrap_pag_tab">
-	<div class="externalizacion">
-		<div id="enviar"></div>
-		<div id="compartir"></div>
+	<div class="wrap_pag_tab">
+		<span class="tab_breadcroumbs">Home &gt; Maquinarias, Equipos y Vehículos &gt; Remates &gt; <strong>Venta Directa</strong></span>
+		<div id="detalles_ventadirecta">
+			<div class="externalizacion">
+				<div id="enviar_mail_print">
+				</div>
+				<div id="compartir">
+					<div id="mail_print">
+						<a href="javascript:void(0);"><img src="../../images/icono-enviar-mail.jpg" alt="" /></a>
+						<a href="javascript:void(0);"><img src="../../images/icono-imprimir.jpg" alt="" /></a>
+					</div>
+					<img src="../../images/social/redes-sociales286X50.jpg" alt="" style="float: right;" />
+				</div>
+			</div>
+		</div>
+		<div id="wrap_ficha">
+			<div id="wrap_vent_directa">
+				<div id="side_der">
+					<div id="title_bienes_der"></div>
+					<ul id="lst_side_der">
+						<li class="vd_sl"><a href="javascript:void(0);"><span>Equipos y otros</span></a></li>
+						<li class="vd_sl"><a href="javascript:void(0);"><span>Maquinarias</span></a></li>
+						<li class="vd_sl"><a href="javascript:void(0);"><span>Moviliario</span></a></li>
+						<li class="vd_dl"><a href="javascript:void(0);"><span>Vehículo Liviano</span></a></li>
+						<li class="vd_dl"><a href="javascript:void(0);"><span>Vehículo Pesado</span></a></li>
+					</ul>
+				</div>
+				<div id="muestra_venta"></div>
+			</div>
+		</div>
 	</div>
-</div>
 </body>
 </html>

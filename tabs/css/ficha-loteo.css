@@ -13,22 +13,26 @@ img {
 	font-weight: bold;
 	margin-bottom: 15px;
 }
-#detalles_remate {
+#detalles_remate,
+#detalles_ventadirecta {
 	background-color: #FFFFFF;
 	margin: 0 auto;
 	width: 740px;
 }
-#detalles_remate div.externalizacion {
+#detalles_remate div.externalizacion,
+#detalles_ventadirecta div.externalizacion {
 	height: 60px;
 	padding-bottom: 12px;
 	padding-top: 2px;
 }
-#detalles_remate div.externalizacion #enviar_mail_print {
+#detalles_remate div.externalizacion #enviar_mail_print,
+#detalles_ventadirecta div.externalizacion #enviar_mail_print{
 	float: left;
 	height: inherit;
 	width: 354px;
 }
-#detalles_remate div.externalizacion #compartir {
+#detalles_remate div.externalizacion #compartir,
+#detalles_ventadirecta div.externalizacion #compartir {
 	float: left;
 	height: inherit;
 	width: 374px;
