@@ -9,6 +9,13 @@
 <link href="../css/ficha-loteo.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="../js/tabbed.js"></script>
 <style type="text/css">
+div.clearfix{
+     width:1px;
+     height:1px;
+     display:block;
+     clear:both;
+     content: ".";
+}
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der {
 	border: 1px solid #BACD3B;
 	float: left;
@@ -161,6 +168,41 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta #muestra_producto #producto_bajo #siguiente img {
 	float: right;
 }
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd {
+	float: right;
+	height: 54px;
+	margin-right: 14px;
+	width: 558px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd ul#tabs_zonas {
+	background-color: #E1E1E1;
+	border-top: 1px solid #BACD3B;
+	height: 54px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd ul#tabs_zonas > li.item {
+	border-top:6px;
+	float: left;
+	text-align: center;
+	width: 186px;
+	height: 43px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd ul#tabs_zonas > li a,
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd ul#tabs_zonas > li a:VISITED {
+	background-color: #FFFFFF;
+	color: #454545;
+	display: block;
+	font-family: Arial,Helvética sans serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 44px;
+	line-height: 48px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd ul#tabs_zonas > li.active.item a {
+	background-color: #E1E1E1;
+	border-top: 5px solid #bacd3b;
+	height: 39px;
+	line-height: 37px;
+}
 </style>
 </head>
 <body>
@@ -217,6 +259,14 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 							<div id="siguiente"><a href="javascript:void(0);"><img src="../../images/flecha-siguiente8x15.png" alt="Flecha siguiente" /></a></div>
 						</div>						
 					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div id="tab_vd">
+					<ul id="tabs_zonas">
+						<li class="active item"><a href=""><span>ZONA NORTE</span></a></li>
+						<li class="item"><a href=""><span>ZONA CENTRO</span></a></li>
+						<li class="item"><a href=""><span>ZONA SUR</span></a></li>
+					</ul>					
 				</div>
 			</div>
 		</div>
