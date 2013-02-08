@@ -202,38 +202,38 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 	height: 39px;
 	line-height: 37px;
 }
-.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd{
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd .paginacion_vd{
 	float: right;
 	height: 22px;
 	padding-top: 10px;
 	width: 558px;
 }
-.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd #wrap_pag_into {
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd .paginacion_vd .wrap_pag_into {
 	width: 140px;
 	height: 22px;
 	float: right;
 	font-size: 10px;
 }
-.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd ul#nro_pags {
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd .paginacion_vd ul#nro_pags {
 	height: 10px;
 	width: 130px;
 }
-.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd ul#nro_pags li {
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd .paginacion_vd ul#nro_pags li {
 	border-right: 1px solid #696969;
 	float: left;
 	font-family: Arial,Helvética sans serif;
 	text-align: center;
 	width: 16px;
 }
-.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd ul#nro_pags li a {
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd .paginacion_vd ul#nro_pags li a {
 	color: #333333;
 }
-.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd ul#nro_pags li.first a {
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd .paginacion_vd ul#nro_pags li.first a {
 	border-right: medium none;
 	width: 40px;
 	color: #a3b71f;
 }
-.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd ul#nro_pags li.last {
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd .paginacion_vd ul#nro_pags li.last {
 	border-right: medium none;
 	width: 40px;
 }
@@ -247,6 +247,18 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 	float: left;
 	height: 100px;
 	width: 270px;
+}
+.wrap_pag_tab #tab_vd div#muestra_thum_prod .box_muestra_thum .img_thum_ppal {
+	width: 126px;
+	height: 100px;
+	float: left;
+	background-color: blue;
+}
+.wrap_pag_tab #tab_vd div#muestra_thum_prod .box_muestra_thum .detalle_thum_pro {
+	width: 144px;
+	height: 100px;
+	float: left;
+	background-color: aqua;
 }
 .wrap_pag_tab #tab_vd div#muestra_thum_prod .box_muestra_thum.col_izq {
 	margin: 5px 9px 5px 0;
@@ -317,8 +329,8 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 							<li class="item"><a href=""><span>ZONA CENTRO</span></a></li>
 							<li class="item"><a href=""><span>ZONA SUR</span></a></li>
 						</ul>
-						<div id="paginacion_vd">
-							<div id="wrap_pag_into">
+						<div class="paginacion_vd">
+							<div class="wrap_pag_into">
 								<span style="float: left;">Pág.</span>
 								<ul id="nro_pags">
 									<li class="first"><a href="javascript:void(0);"><span>1</span></a></li>
@@ -330,15 +342,84 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 							</div>
 						</div>
 						<div id="muestra_thum_prod">
-							<div class="box_muestra_thum col_izq"></div>
-							<div class="box_muestra_thum col_der"></div>
-							<div class="box_muestra_thum col_izq"></div>
-							<div class="box_muestra_thum col_der"></div>
-							<div class="box_muestra_thum col_izq"></div>
-							<div class="box_muestra_thum col_der"></div>
-							<div class="box_muestra_thum col_izq"></div>
-							<div class="box_muestra_thum col_der"></div>
-						</div>					
+							<div class="box_muestra_thum col_izq">
+								<div class="img_thum_ppal"><img src="../../images/maquinarias-equipos-vehiculos/venta-directa-thums/excavadora-komatsu-pc3007eo.jpg" alt="" /></div>
+								<div class="detalle_thum_pro">
+									<p id="muestra_title_thum">EXCAVADORA KOMATSU PC 300 7EO</p>
+									<p id="muestra_precio_thum">Precio</p>
+									<p id="muestra_cifra_thum">$ 55.000.000 + IVA</p>								
+								</div>
+							</div>
+							<div class="box_muestra_thum col_der">
+								<div class="img_thum_ppal"><img src="../../images/maquinarias-equipos-vehiculos/venta-directa-thums/excavadora-komatsu-pc3007eo.jpg" alt="" /></div>
+								<div class="detalle_thum_pro">
+									<p id="muestra_title_thum">EXCAVADORA KOMATSU PC 300 7EO</p>
+									<p id="muestra_precio_thum">Precio</p>
+									<p id="muestra_cifra_thum">$ 55.000.000 + IVA</p>								
+								</div>							
+							</div>
+							<div class="box_muestra_thum col_izq">
+								<div class="img_thum_ppal"><img src="../../images/maquinarias-equipos-vehiculos/venta-directa-thums/excavadora-komatsu-pc3007eo.jpg" alt="" /></div>
+								<div class="detalle_thum_pro">
+									<p id="muestra_title_thum">EXCAVADORA KOMATSU PC 300 7EO</p>
+									<p id="muestra_precio_thum">Precio</p>
+									<p id="muestra_cifra_thum">$ 55.000.000 + IVA</p>								
+								</div>
+							</div>
+							<div class="box_muestra_thum col_der">
+								<div class="img_thum_ppal"><img src="../../images/maquinarias-equipos-vehiculos/venta-directa-thums/excavadora-komatsu-pc3007eo.jpg" alt="" /></div>
+								<div class="detalle_thum_pro">
+									<p id="muestra_title_thum">EXCAVADORA KOMATSU PC 300 7EO</p>
+									<p id="muestra_precio_thum">Precio</p>
+									<p id="muestra_cifra_thum">$ 55.000.000 + IVA</p>								
+								</div>							
+							</div>
+							<div class="box_muestra_thum col_izq">
+								<div class="img_thum_ppal"><img src="../../images/maquinarias-equipos-vehiculos/venta-directa-thums/excavadora-komatsu-pc3007eo.jpg" alt="" /></div>
+								<div class="detalle_thum_pro">
+									<p id="muestra_title_thum">EXCAVADORA KOMATSU PC 300 7EO</p>
+									<p id="muestra_precio_thum">Precio</p>
+									<p id="muestra_cifra_thum">$ 55.000.000 + IVA</p>								
+								</div>
+							</div>
+							<div class="box_muestra_thum col_der">
+								<div class="img_thum_ppal"><img src="../../images/maquinarias-equipos-vehiculos/venta-directa-thums/excavadora-komatsu-pc3007eo.jpg" alt="" /></div>
+								<div class="detalle_thum_pro">
+									<p id="muestra_title_thum">EXCAVADORA KOMATSU PC 300 7EO</p>
+									<p id="muestra_precio_thum">Precio</p>
+									<p id="muestra_cifra_thum">$ 55.000.000 + IVA</p>								
+								</div>							
+							</div>
+							<div class="box_muestra_thum col_izq">
+								<div class="img_thum_ppal"><img src="../../images/maquinarias-equipos-vehiculos/venta-directa-thums/excavadora-komatsu-pc3007eo.jpg" alt="" /></div>
+								<div class="detalle_thum_pro">
+									<p id="muestra_title_thum">EXCAVADORA KOMATSU PC 300 7EO</p>
+									<p id="muestra_precio_thum">Precio</p>
+									<p id="muestra_cifra_thum">$ 55.000.000 + IVA</p>								
+								</div>
+							</div>
+							<div class="box_muestra_thum col_der">
+								<div class="img_thum_ppal"><img src="../../images/maquinarias-equipos-vehiculos/venta-directa-thums/excavadora-komatsu-pc3007eo.jpg" alt="" /></div>
+								<div class="detalle_thum_pro">
+									<p id="muestra_title_thum">EXCAVADORA KOMATSU PC 300 7EO</p>
+									<p id="muestra_precio_thum">Precio</p>
+									<p id="muestra_cifra_thum">$ 55.000.000 + IVA</p>								
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="paginacion_vd">
+							<div class="wrap_pag_into">
+								<span style="float: left;">Pág.</span>
+								<ul id="nro_pags">
+									<li class="first"><a href="javascript:void(0);"><span>1</span></a></li>
+									<li><a href="javascript:void(0);"><span>2</span></a></li>
+									<li><a href="javascript:void(0);"><span>3</span></a></li>
+									<li><a href="javascript:void(0);"><span>4</span></a></li>
+									<li class="last"><a href="javascript:void(0);"><span>... 12 ></span></a></li>
+								</ul>
+							</div>
+						</div>
 					</div>					
 				</div>
 			</div>
