@@ -35,6 +35,19 @@ $(document).ready( function (){
 	}, function() {
 		$(this).removeClass('overtitle');
 	});	
+
+	//cambiar el tamaño del iframe
+    $('#pag_venta_directa').click(function() {
+        //instrucciones
+        $('.tabContent').height(1076);
+        
+    });
+    $('#pag_remates').click(function() {
+        //instrucciones
+        $('.tabContent').height(1450);
+        
+    });	    
+    
 });
 </script>
 <script type="text/javascript">
@@ -86,13 +99,13 @@ $(document).ready( function (){
 		</div>
 	</div>
 	<div class="clearfix"></div>
-	<div id="sec_contenido" style="height: 1500px;">
+	<div id="sec_contenido">
 		<div class="wrap">
 			<div id="wrap_remates" style="min-height: 700px;">
 				<div id="tabs-mev" class="tabBox" style="clear:both;">
 					<div class="tabArea">
-						<a class="tab" href="../tabs/tabs-paginas/tab_remate_fabrica_completa_moldulam.html" target="tabIframe2" style="margin-left: 10px;">Remates</a>
-						<a class="tab" href="../tabs/tabs-paginas/tab-venta-directa.html" target="tabIframe2">Venta Directa</a>
+						<a id="pag_remates" class="tab" href="../tabs/tabs-paginas/tab_remate_fabrica_completa_moldulam.html" target="tabIframe2" style="margin-left: 10px;">Remates</a>
+						<a id="pag_venta_directa" class="tab" href="../tabs/tabs-paginas/tab-venta-directa.html" target="tabIframe2">Venta Directa</a>
 						<a class="tab" href="../tabs/tabs-paginas/tab-remate-online.html" target="tabIframe2">Remate On-Line</a>
 					</div>
 					<div class="tabMain">
