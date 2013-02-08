@@ -20,6 +20,7 @@ div.clearfix{
 	border: 1px solid #BACD3B;
 	float: left;
 	height: 390px;
+	margin-right: 18px;
 	width: 130px;
 }
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #side_der ul#lst_side_der {
@@ -69,7 +70,6 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #muestra_venta {
 	float: left;
 	height: 390px;
-	margin-left: 18px;
 	width: 558px;
 }
 .wrap_pag_tab div#wrap_ficha #side_der #vd_bajar_listado {
@@ -171,7 +171,6 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd {
 	float: right;
 	height: 54px;
-	margin-right: 14px;
 	width: 558px;
 }
 .wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd ul#tabs_zonas {
@@ -203,6 +202,58 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 	height: 39px;
 	line-height: 37px;
 }
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd{
+	float: right;
+	height: 22px;
+	padding-top: 10px;
+	width: 558px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd #wrap_pag_into {
+	width: 140px;
+	height: 22px;
+	float: right;
+	font-size: 10px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd ul#nro_pags {
+	height: 10px;
+	width: 130px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd ul#nro_pags li {
+	border-right: 1px solid #696969;
+	float: left;
+	font-family: Arial,Helvética sans serif;
+	text-align: center;
+	width: 16px;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd ul#nro_pags li a {
+	color: #333333;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd ul#nro_pags li.first a {
+	border-right: medium none;
+	width: 40px;
+	color: #a3b71f;
+}
+.wrap_pag_tab #wrap_ficha #wrap_vent_directa #tab_vd #paginacion_vd ul#nro_pags li.last {
+	border-right: medium none;
+	width: 40px;
+}
+/*paginacion*/
+.wrap_pag_tab #tab_vd div#muestra_thum_prod {
+	width: 558px;
+	background-color: #FFFFFF;
+}
+.wrap_pag_tab #tab_vd div#muestra_thum_prod .box_muestra_thum {
+	background-color: #F2F2F2;
+	float: left;
+	height: 100px;
+	width: 270px;
+}
+.wrap_pag_tab #tab_vd div#muestra_thum_prod .box_muestra_thum.col_izq {
+	margin: 5px 9px 5px 0;
+}
+.wrap_pag_tab #tab_vd div#muestra_thum_prod .box_muestra_thum.col_der {
+	margin: 5px 0 5px 9px;
+}
 </style>
 </head>
 <body>
@@ -221,7 +272,7 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 				</div>
 			</div>
 		</div>
-		<div id="wrap_ficha">
+		<div id="wrap_ficha" style="height: 940px;">
 			<div id="wrap_vent_directa">
 				<div id="side_der">
 					<div id="title_bienes_der">
@@ -259,14 +310,36 @@ html body div.wrap_pag_tab div#wrap_ficha div#wrap_vent_directa div#side_der ul#
 							<div id="siguiente"><a href="javascript:void(0);"><img src="../../images/flecha-siguiente8x15.png" alt="Flecha siguiente" /></a></div>
 						</div>						
 					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div id="tab_vd">
-					<ul id="tabs_zonas">
-						<li class="active item"><a href=""><span>ZONA NORTE</span></a></li>
-						<li class="item"><a href=""><span>ZONA CENTRO</span></a></li>
-						<li class="item"><a href=""><span>ZONA SUR</span></a></li>
-					</ul>					
+					<div class="clearfix"></div>
+					<div id="tab_vd">
+						<ul id="tabs_zonas">
+							<li class="active item"><a href=""><span>ZONA NORTE</span></a></li>
+							<li class="item"><a href=""><span>ZONA CENTRO</span></a></li>
+							<li class="item"><a href=""><span>ZONA SUR</span></a></li>
+						</ul>
+						<div id="paginacion_vd">
+							<div id="wrap_pag_into">
+								<span style="float: left;">Pág.</span>
+								<ul id="nro_pags">
+									<li class="first"><a href="javascript:void(0);"><span>1</span></a></li>
+									<li><a href="javascript:void(0);"><span>2</span></a></li>
+									<li><a href="javascript:void(0);"><span>3</span></a></li>
+									<li><a href="javascript:void(0);"><span>4</span></a></li>
+									<li class="last"><a href="javascript:void(0);"><span>... 12 ></span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div id="muestra_thum_prod">
+							<div class="box_muestra_thum col_izq"></div>
+							<div class="box_muestra_thum col_der"></div>
+							<div class="box_muestra_thum col_izq"></div>
+							<div class="box_muestra_thum col_der"></div>
+							<div class="box_muestra_thum col_izq"></div>
+							<div class="box_muestra_thum col_der"></div>
+							<div class="box_muestra_thum col_izq"></div>
+							<div class="box_muestra_thum col_der"></div>
+						</div>					
+					</div>					
 				</div>
 			</div>
 		</div>
