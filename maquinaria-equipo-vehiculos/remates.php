@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8" />
 <title>Sitio Tattersall</title>
-<link rel=StyleSheet href="http://kenya.cl/sitio-tattersall/css/reset.css" type="text/css" media="screen">
-<link rel=StyleSheet href="http://kenya.cl/sitio-tattersall/css/styles.css" type="text/css" media="screen">
-<link rel=StyleSheet href="http://kenya.cl/sitio-tattersall/css/remates.css" type="text/css" media="screen">
+<link rel=StyleSheet href="http://localhost/tattersall/css/reset.css" type="text/css" media="screen">
+<link rel=StyleSheet href="http://localhost/tattersall/css/styles.css" type="text/css" media="screen">
+<link rel=StyleSheet href="http://localhost/tattersall/css/remates.css" type="text/css" media="screen">
 <!-- inicio archivos necesarios para los tabs -->
-<link href="http://kenya.cl/sitio-tattersall/tabs/css/default.css" rel="stylesheet" type="text/css" />
-<link href="http://kenya.cl/sitio-tattersall/tabs/css/predifinido.css" rel="stylesheet" type="text/css" />
-<link href="http://kenya.cl/sitio-tattersall/tabs/css/personalizado.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://kenya.cl/sitio-tattersall/tabs/js/activo.js" ></script>
+<link href="http://localhost/tattersall/tabs/css/default.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost/tattersall/tabs/css/predifinido.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost/tattersall/tabs/css/personalizado.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://localhost/tattersall/tabs/js/activo.js" ></script>
 <!-- fin archivos necesarios para los tabs -->
-<script	src="http://kenya.cl/sitio-tattersall/js/jquery/jquery.min.js"></script>
+<script	src="http://localhost/tattersall/js/jquery/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready( function (){
 //al tomar el foco el campo, este se borra
@@ -45,13 +45,13 @@ $(document).ready( function (){
 			<nav>
 				<ul id="menu_ppal">
 					<li><a id="item_home" href=""><span><img
-								src="http://kenya.cl/sitio-tattersall/images/icono-casita.png" alt="" /></span></a></li>
+								src="http://localhost/tattersall/images/icono-casita.png" alt="" /></span></a></li>
 					<li class="current"><a href=""><span>TATTERSALL</span></a></li>
 					<li><a href=""><span>AREAS DE NEGOCIOS</span></a></li>
 					<li><a href=""><span>CONTACTO</span></a></li>
 					<li><a href=""><span><img
 								style="padding-top: 1px; margin-left: -1px;"
-								src="http://kenya.cl/sitio-tattersall/images/icono_ayuda.png" alt="" /></span></a></li>
+								src="http://localhost/tattersall/images/icono_ayuda.png" alt="" /></span></a></li>
 				</ul>
 			</nav>
 			<span id="prox_rem">PROXIMOS REMATES</span>
@@ -60,14 +60,14 @@ $(document).ready( function (){
 	<div id="sec_header">
 		<div class="wrap">
 			<div id="logo">
-				<img src="http://kenya.cl/sitio-tattersall/images/logo_ppal_tattersall.png" alt="Logo de Tattersall"
+				<img src="http://localhost/tattersall/images/logo_ppal_tattersall.png" alt="Logo de Tattersall"
 					width="410" height="84" />
 			</div>
 			<div id="buscar">
 				<input id="buscador" name="buscador" type="text" value="Buscar" />
 			</div>
 			<div id="calendario_remates">
-				<iframe id="frm_calendario_remates" src="http://kenya.cl/sitio-tattersall/calendario/calendario.php" frameborder="0" scrolling="no" width="170" height="140"></iframe>
+				<iframe id="frm_calendario_remates" src="http://localhost/tattersall/calendario/calendario.php" frameborder="0" scrolling="no" width="170" height="140"></iframe>
 			</div>
 		</div>
 	</div>
@@ -90,11 +90,11 @@ $(document).ready( function (){
 				<div class="col_right">
 					<div id="ver_propiedades">
 						<div class="tituProp">Propiedades</div>
-						<div class="flecha"><a href="javascript:void(0);"><img src="http://kenya.cl/sitio-tattersall/images/flecha-circulo.png" alt="" /></a></div>
+						<div class="flecha"><a href="javascript:void(0);"><img src="http://localhost/tattersall/images/flecha-circulo.png" alt="" /></a></div>
 						<div class="clearfix"></div>
 					</div>
 					<div class="banners">
-						<img id="banner_financiamiento" src="http://kenya.cl/sitio-tattersall/images/banners/banner_necesita_financiamiento181X132.jpg" alt="" />
+						<img id="banner_financiamiento" src="http://localhost/tattersall/images/banners/banner_necesita_financiamiento181X132.jpg" alt="" />
 					</div>
 					<div id="prox_rem_side">
 						<h3 class="title_rem">PROXIMOS REMATES</h3>
@@ -135,10 +135,10 @@ $(document).ready( function (){
 						<div id="ver_mas_rem"><a href="javascript:void(0);" id="link_vermas_remates"><img src="../images/read_more8px.png" alt="" style="float: right;" /></a></div>
 					</div>
 					<div class="banners" style="margin-top: 10px;">
-						<img id="banner_contactenos_rem" src="http://kenya.cl/sitio-tattersall//images/banners/banner3_contactenos182x79.jpg" alt="" />
+						<img id="banner_contactenos_rem" src="http://localhost/tattersall//images/banners/banner3_contactenos182x79.jpg" alt="" />
 					</div>		
 					<div class="banners" style="margin-top: 10px;">
-						<img id="banner_contactenos_rem" src="http://kenya.cl/sitio-tattersall//images/banners/como_participar_remate182x132.jpg" alt="" />
+						<img id="banner_contactenos_rem" src="http://localhost/tattersall//images/banners/como_participar_remate182x132.jpg" alt="" />
 					</div>														
 				</div>
 			</div>
