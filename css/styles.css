@@ -2,15 +2,6 @@
 	margin: 0 auto;
 	width: 960px;
 }
-div.clearfix{
-	clear:both;
-	content: ".";
-	display:block;
-	height:1px;
-	width:1px;
-	background-color: #FFFFFF;
-	
-}
 body {
 	font-family: 'Arial Narrow','Nimbus Sans L',sans-serif ;
 }
@@ -421,3 +412,14 @@ strong {
 /*jagl 01/02/2013 fin
 
 */
+/*jagl 12/02/2013 inicio*/
+div.clearfix{
+	clear:both;
+	content: ".";
+	display:block;
+	height:1px;
+	width:1px;
+	background: none;
+	
+}
+/*jagl 12/02/2013 fin*/
