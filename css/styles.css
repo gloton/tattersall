@@ -300,11 +300,11 @@ hr {
 ******SECCION FOOTER*******/
 	/*footer left*/
 #sec_footer {
-    color: #666666;
-	height: 320px;
-    line-height: 20px;
-    margin-top: 28px;
+	color: #666666;
 	font-family: Arial,Helvética sans serif;
+	height: 320px;
+	line-height: 20px;
+	margin-top: 0;
 }
 #sec_footer div.wrap {
     background-color: #EEEEEE;

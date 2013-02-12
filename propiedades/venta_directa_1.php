@@ -106,6 +106,9 @@ div.tabMain {
   border-width: 4px 2px 2px;
   padding: 0;
 }
+#sec_contenido div.wrap div#wrap_remates {
+  height: 764px;
+}
 </style>
 </head>
 
