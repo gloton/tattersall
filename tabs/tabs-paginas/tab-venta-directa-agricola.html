@@ -8,6 +8,7 @@
 <link href="../css/tabbed.css" rel="stylesheet" type="text/css" />
 <link href="../css/tabs-tattersall.css" rel="stylesheet" type="text/css" />
 <link href="../css/ficha-loteo.css" rel="stylesheet" type="text/css" />
+<link href="../css/side_der.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="../js/tabbed.js"></script>
 <style type="text/css">
 div.clearfix{
@@ -64,76 +65,29 @@ div.clearfix{
 	padding-left: 18px;
 	width: 722px;
 }
-/*inicio css side_der*/
-.wrap_pag_tab #wrap_prop_agricolas #side_der {
-	border: 1px solid #BACD3B;
+/*contenido central del tab*/
+.tab_cont_central {
+	width: 572px;
+	height: 990px;
+	background-color: red;
 	float: left;
-	height: 390px;
-	margin-right: 18px;
-	width: 130px;
 }
-.wrap_pag_tab #wrap_prop_agricolas #side_der ul#lst_side_der {
-	height: 278px;
-	width: 100px;
-	margin: 10px auto 0;
+.tab_cont_central {
+	width: 572px;
+	height: 990px;
+	background-color: red;
+	float: left;
 }
-.wrap_pag_tab #wrap_prop_agricolas #side_der ul#lst_side_der li {
-	margin-bottom: 5px;
-	width: 100px;
-	cursor: pointer;
-}
-.wrap_pag_tab  #wrap_prop_agricolas #side_der ul#lst_side_der li a {
-	color: #454545;
-	display: block;
-	font-size: 11px;
-	margin: 0 auto;
-	text-align: center;
-	width: 86px;
-	font-family: Arial,Helvética sans serif;
-}
-.wrap_pag_tab #wrap_prop_agricolas #side_der ul#lst_side_der li span {
-	display: block;
+.tab_cont_central .title h2 {
+	font-family: Arial,Helmet,Freesans,sans-serif;
+	font-size: 15px;
 	font-weight: bold;
-	line-height: 14px;
-	margin: 0 auto;
+	width: 572px;
+	height: 990px;
+	background-color: red;
+	float: left;
 }
-.wrap_pag_tab #wrap_prop_agricolas #side_der ul#lst_side_der .vd_sl {
-	height: 31px;
-	padding-top: 16px;
-	background: url("../../images/icono_flecha_abajo.png") no-repeat scroll 42px 35px #F1F1F1;
-}
-.wrap_pag_tab #wrap_prop_agricolas #side_der ul#lst_side_der .vd_dl {
-    height: 46px;
-    padding-top: 13px;
-	background: url("../../images/icono_flecha_abajo.png") no-repeat scroll 42px 47px #F1F1F1;
-}
-.wrap_pag_tab #wrap_prop_agricolas #side_der ul#lst_side_der .vd_dl span {
-    width: 82px;
-}
-.wrap_pag_tab #wrap_prop_agricolas #side_der #title_bienes_der {
-	background: url("../../images/bg_title_bienes_der.jpg") no-repeat scroll 0 0 transparent;
-	color: #454545;
-	height: 42px;
-	padding-top: 0;
-	text-align: center;
-	width: 130px;
-}
-.wrap_pag_tab #wrap_prop_agricolas #side_der #title_bienes_der p {
-	width: 100px;
-	margin: 0 auto 2px;
-}
-.wrap_pag_tab #wrap_prop_agricolas #side_der #vd_bajar_listado {
-	background: url("../../images/icono-hoja16X20.png") no-repeat scroll 0 0 transparent;
-	color: #454545;
-	font-size: 9px;
-	font-weight: bolder;
-	height: 26px;
-	line-height: 18px;
-	margin: 18px auto 0;
-	padding-left: 20px;
-	width: 84px;
-}
-/*fin css side_der*/
+
 </style>
 </head>
 <body>
@@ -166,6 +120,9 @@ div.clearfix{
 					<li class="vd_dl"><a href="javascript:void(0);"><span>Vehículo Pesado</span></a></li>
 				</ul>
 				<div id="vd_bajar_listado">Descargar Listado</div>
+			</div>
+			<div class="tab_cont_central">
+				<div class="title"><h2>PROPIEDADES AGRICOLAS</h2></div>
 			</div>		
 		</div>		
 	</div>

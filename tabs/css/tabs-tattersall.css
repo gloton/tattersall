@@ -4,16 +4,18 @@ body {
 	padding: 0;
 }
 .wrap_pag_tab {
-	padding-top: 10px;
-	padding-left: 10px;
+	padding-top: 0;
+	padding-left: 0;
 }
 .tab_breadcroumbs {
-    color: #888888;
-    display: inline-block;
-    font-family: Arial,Helmet,Freesans,sans-serif;
-    font-size: 12px;
-    height: 40px;
-    line-height: 20px;
+	color: #888888;
+	display: inline-block;
+	font-family: Arial,Helmet,Freesans,sans-serif;
+	font-size: 12px;
+	height: 30px;
+	line-height: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
 }
 h3.titulo_meses {
   background: url("../images/titulo-meses.png") repeat-x scroll 0 0 transparent;
