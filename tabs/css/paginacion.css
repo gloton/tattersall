@@ -1,0 +1,35 @@
+.paginacion_vd{
+	float: right;
+	height: 18px;
+	padding-top: 14px;
+	width: 558px;
+}
+.paginacion_vd .wrap_pag_into {
+	width: 140px;
+	height: 22px;
+	float: right;
+	font-size: 10px;
+}
+.paginacion_vd ul#nro_pags {
+	height: 10px;
+	width: 130px;
+}
+.paginacion_vd ul#nro_pags li {
+	border-right: 1px solid #696969;
+	float: left;
+	font-family: Arial,Helvética sans serif;
+	text-align: center;
+	width: 16px;
+}
+.paginacion_vd ul#nro_pags li a {
+	color: #333333;
+}
+.paginacion_vd ul#nro_pags li.first a {
+	border-right: medium none;
+	width: 40px;
+	color: #a3b71f;
+}
+.paginacion_vd ul#nro_pags li.last {
+	border-right: medium none;
+	width: 40px;
+}

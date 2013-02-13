@@ -168,10 +168,10 @@ div.tabMain {
 					</div>
 					<div class="banners">
 						<img id="banner_financiamiento" src="http://localhost/tattersall/images/banners/buscamos-la-propiedad-que-ud-necesita181x136.png" alt="Buscamos la propiedad que ud necesita" />
-						<img id="banner_financiamiento" src="http://localhost/tattersall/images/banners/vendemos-su-propiedad181x136.png" alt="Vendemos su propiedad" />
+						<img style="margin-top: 11px;" id="banner_financiamiento" src="http://localhost/tattersall/images/banners/vendemos-su-propiedad181x136.png" alt="Vendemos su propiedad" />
 					</div>
 					
-					<div class="banners" style="margin-top: 10px;">
+					<div class="banners" style="margin-top: 14px;">
 						<img id="banner_contactenos_rem" src="http://localhost/tattersall/images/banners/banner3_contactenos182x79.jpg" alt="" />
 					</div>		
 				</div>
