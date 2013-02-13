@@ -39,7 +39,7 @@ $(document).ready( function (){
 	//cambiar el tamaño del iframe
     $('#pag_venta_directa').click(function() {
         //instrucciones
-        $('.tabContent').height(700);
+        $('.tabContent').height(1132);
         
     });
     $('#pag_remates').click(function() {
