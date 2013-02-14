@@ -36,8 +36,8 @@ a.tab.activeTab {
     z-index: 102;
 }
 a.tab.activeTab, a.tab.activeTab:visited {
-	background: url("../images/bg_tab_active.jpg") repeat-x scroll 0 3px transparent !important;
-	height: 45px;
+	background: url("../images/bg_tab_active.jpg") repeat-x scroll 0 2px transparent !important;
+	height: 44px;
     border-color: #B090E0 #7050A0 #7050A0 #B090E0;
     color: #FFFFFF;
 }
