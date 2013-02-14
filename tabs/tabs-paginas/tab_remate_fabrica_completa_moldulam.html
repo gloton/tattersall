@@ -9,7 +9,40 @@
 <link href="../css/tabs-tattersall.css" rel="stylesheet" type="text/css" />
 <link href="../css/ficha-loteo.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="../js/tabbed.js"></script>
+<style type="text/css">
+#ordenarpor {
+	float: right;
+	height: inherit;
+	width: 114px;
+	font-size: 12px;
+	color: #333333;
+}
+#ordenarpor #wrap_ordenarpor {
+  background: url("../../images/bg_btn_ordenar_por.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+  height: 26px;
+  margin: 0 auto;
+  width: 113px;
+}
+#ordenarpor #wrap_ordenarpor.boton span {
+  display: inline-block;
+  float: left;
+  height: 21px;
+  padding-left: 9px;
+  padding-top: 5px;
+}
 
+#ordenarpor #wrap_ordenarpor.boton span#flecha-ordenar-por.flechita-abajo {
+	background: url("../../images/flechita-verde-abajo.png") no-repeat scroll 22px 10px transparent;
+	width: 26px;
+	float: left;
+    height: 21px;
+    padding-left: 9px;
+    padding-top: 5px;
+	display: inline-block;
+}
+
+</style>
 </head>
 <body>
 	<div class="wrap_pag_tab">
@@ -79,7 +112,12 @@
 					<h3>LOTEO</h3>
 				</div>
 				<div id="top_loteo_der">
+					<div id="ordenarpor">
+						<div id="wrap_ordenarpor" class="boton"><span>Ordenar por</span><span id="flecha-ordenar-por" class="flechita-abajo"></span></div>
+					</div>				
+				<!--  
 					<img src="../../images/btn_loteo.jpg" alt="" />
+				-->
 				</div>
 			</div>
 			<div class="clearfix"></div>

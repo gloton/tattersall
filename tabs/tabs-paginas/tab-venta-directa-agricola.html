@@ -20,22 +20,22 @@ div.clearfix{
      content: ".";
 }
 #muestra_thum_propied {
-	width: 614px;
 	margin: 0 auto;
+	width: 614px;
 }
 #muestra_thum_propied .box_muestra_prop {
-	width: 291px;
-	height: 258px;
 	float: left;
+	height: 258px;
 	margin-bottom: 32px;
+	width: 291px;
 }
 #muestra_thum_propied .box_muestra_prop.col_izq {
 	margin-left: 0;
 	margin-right: 16px;
 }
 #muestra_thum_propied .box_muestra_prop.col_der {
-	margin-right: 0;
 	margin-left: 16px;
+	margin-right: 0;
 }
 #muestra_thum_propied .box_muestra_prop .title_prop .title {
 	background: url("../../images/bg_vd_title.png") repeat-x scroll 0 0 transparent;
@@ -68,26 +68,26 @@ div.clearfix{
 }
 /*contenido central del tab*/
 .tab_cont_central {
-	width: 572px;
-	height: 990px;
 	float: left;
+	height: 990px;
+	width: 572px;
 }
 .tab_cont_central {
-	width: 572px;
-	height: 580px;
 	float: left;
+	height: 580px;
+	width: 572px;
 }
 .tab_cont_central .title{
-	width: 558px;
+	float: left;
 	height: 26px;
 	padding-top: 2px;
-	float: left;
+	width: 558px;
 }
 .tab_cont_central .title h2 {
+	color: #333333;
 	font-family: Arial,Helmet,Freesans,sans-serif;
 	font-size: 15px;
 	font-weight: bold;
-	color: #333333;
 }
 .tab_cont_central #buscar_agric {
 	background-color: #EDEDED;
@@ -102,56 +102,67 @@ div.clearfix{
 }
 .tab_cont_central #buscar_agric .boton span {
 	display: inline-block;
+	float: left;
+	height: 21px;
 	padding-left: 9px;
 	padding-top: 5px;
 }
-.tab_cont_central #buscar_agric #region {
-	width: 140px;
-	height: inherit;
+.tab_cont_central #buscar_agric .boton span.flechita-abajo {
+	background: url("../../images/flechita-azul-abajo.png") no-repeat scroll 40px 10px transparent;
 	float: left;
+	width: 46px;
+}
+.tab_cont_central #buscar_agric .boton span#flecha-ordenar-por.flechita-abajo {
+	background: url("../../images/flechita-azul-abajo.png") no-repeat scroll 22px 10px transparent;
+	width: 26px;
+}
+.tab_cont_central #buscar_agric #region {
+	float: left;
+	height: inherit;
+	width: 140px;
 }
 .tab_cont_central #buscar_agric #comuna {
-	width: 134px;
-	height: inherit;
 	float: left;
+	height: inherit;
+	width: 134px;
 }
 .tab_cont_central #buscar_agric #buscar {
-	width: 115px;
-	height: inherit;
 	float: left;
+	height: inherit;
+	width: 115px;
 }
 .tab_cont_central #buscar_agric #ordenarpor {
-	width: 169px;
-	height: inherit;
 	float: left;
+	height: inherit;
+	width: 169px;
 }
 .tab_cont_central #region #wrap_region {
-	background: url("../../images/btn_region.png") no-repeat scroll 0 0 transparent;
+	background: url("../../images/bg_btn_region.png") no-repeat scroll 0 0 transparent;
 	cursor: pointer;
 	height: 26px;
-	width: 105px;
 	margin: 0 auto;
+	width: 105px;
 }
 .tab_cont_central #comuna #wrap_comuna {
-	background: url("../../images/btn_comuna.jpg") no-repeat scroll 0 0 transparent;
+	background: url("../../images/bg_btn_comuna.png") no-repeat scroll 0 0 transparent;
 	cursor: pointer;
 	height: 26px;
-	width: 113px;
 	margin: 0 auto;
+	width: 113px;
 }
 .tab_cont_central #buscar #wrap_buscar {
 	background: url("../../images/btn_buscar_propiedad.jpg") no-repeat scroll 0 0 transparent;
 	cursor: pointer;
 	height: 25px;
-	width: 74px;
 	margin: 0 auto;
+	width: 74px;
 }
 .tab_cont_central #ordenarpor #wrap_ordenarpor {
-	background: url("../../images/btn_ordenar_por.png") no-repeat scroll 0 0 transparent;
+	background: url("../../images/bg_btn_ordenar_por.png") no-repeat scroll 0 0 transparent;
 	cursor: pointer;
 	height: 26px;
-	width: 113px;
 	margin: 0 auto;
+	width: 113px;
 }
 /*sobrescritura paginacion*/
 .paginacion_vd ul#nro_pags li.first a {
@@ -165,15 +176,15 @@ div.clearfix{
 	height: 827px;
 }
 .tab_cont_central #lista_prop_agric .prop_agric {
+	background-color: #F2F2F2;
 	height: 116px;
 	margin: 0 auto 25px;
 	width: 558px;
-	background-color: #F2F2F2;
 }
 .tab_cont_central #lista_prop_agric .prop_agric .prop_agric_col1 {
+	float: left;
 	height: 116px;
 	width: 152px;
-	float: left;
 }
 .tab_cont_central #lista_prop_agric .prop_agric .prop_agric_col2 {
 	color: #333333;
@@ -203,8 +214,8 @@ div.clearfix{
 .tab_cont_central #lista_prop_agric .prop_agric .prop_agric_col3 {
 	float: left;
 	height: 116px;
-	width: 114px;
 	text-align: center;
+	width: 114px;
 }
 .tab_cont_central #lista_prop_agric .prop_agric .prop_agric_col3 .col1fila1 {
 	background-color: #E5E5E5;
@@ -245,15 +256,15 @@ div.clearfix{
 }
 .ver_fichas a:visited,
 .ver_fichas a {
-  color: #009CE1;
+	color: #009CE1;
 }
 .ver_fichas p {
-  background: url("../../images/maquinarias-equipos-vehiculos/icono-ver-ficha.png") no-repeat scroll 77px 5px transparent;
-  float: right;
-  height: 40px;
-  line-height: 36px;
-  text-align: left;
-  width: 108px;
+	background: url("../../images/maquinarias-equipos-vehiculos/icono-ver-ficha.png") no-repeat scroll 77px 5px transparent;
+	float: right;
+	height: 40px;
+	line-height: 36px;
+	text-align: left;
+	width: 108px;
 }
 /*sobre escritura side_der.css*/
 #side_der {
@@ -307,16 +318,16 @@ div.clearfix{
 				<div class="title"><h2>PROPIEDADES AGRICOLAS</h2></div>
 				<div id="buscar_agric">
 					<div id="region">
-						<div id="wrap_region" class="boton"><span>Región</span></div>
+						<div id="wrap_region" class="boton"><span>Región</span><span class="flechita-abajo"></span></div>
 					</div>
 					<div id="comuna">
-						<div id="wrap_comuna" class="boton"><span>Comuna</span></div>
+						<div id="wrap_comuna" class="boton"><span>Comuna</span><span class="flechita-abajo"></span></div>
 					</div>
 					<div id="buscar">
 						<div id="wrap_buscar" class="boton"><span>BUSCAR</span></div>
 					</div>
 					<div id="ordenarpor">
-						<div id="wrap_ordenarpor" class="boton"><span>Ordenar por</span></div>
+						<div id="wrap_ordenarpor" class="boton"><span>Ordenar por</span><span id="flecha-ordenar-por" class="flechita-abajo"></span></div>
 					</div>
 				</div>
 				<div class="paginacion_vd">

@@ -91,10 +91,9 @@ $(document).ready( function (){
   border-top: none;
 }
 a.tab.activeTab, a.tab.activeTab:visited {
-  background: url("../images/bg_tab_active2.jpg") repeat-x scroll 0 3px transparent !important;
+  background: url("../images/bg_tab_active2.jpg") repeat-x scroll 0 2px transparent !important;
   border-color: #B090E0 #7050A0 #7050A0 #B090E0;
   color: #FFFFFF;
-  height: 45px;
 }
 a.tab:hover {
   background-color: #00abe6;

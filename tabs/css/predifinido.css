@@ -39,7 +39,6 @@ a.tab, a.tab:visited {
 a.tab:hover {
   background-color: #a080d0;
   border-color: #c0a0f0 #8060b0 #8060b0 #c0a0f0;
-  color: #ffe0ff;
 }
 
 a.tab.activeTab, a.tab.activeTab:hover, a.tab.activeTab:visited {
