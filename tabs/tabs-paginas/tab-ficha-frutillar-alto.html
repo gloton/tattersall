@@ -163,6 +163,64 @@ div.clearfix{
 	background-color: #F1F1F1;
 	margin-top: 13px;
 }
+/*tabs*/
+.tab_cont_central div#tab_vd {
+	height: 54px;
+	width: 556px;	
+	margin-top: 20px;
+}
+.tab_cont_central div#tab_vd ul#tabs_zonas {
+	background-color: #FFFFFF;
+	height: 44px;
+}
+.tab_cont_central div#tab_vd ul#tabs_zonas > li.item {
+	border-top: 6px none;
+	float: left;
+	height: 43px;
+	text-align: center;
+	width: 176px;
+}
+.tab_cont_central div#tab_vd ul#tabs_zonas > li.active.item a {
+	background-color: #F1F1F1;
+	height: 39px;
+	line-height: 37px;
+	font-weight: bold;
+	font-size: 13px;
+}
+.tab_cont_central div#tab_vd ul#tabs_zonas > li a,
+.tab_cont_central div#tab_vd ul#tabs_zonas > li a:VISITED {
+	background-color: #FFFFFF;
+	color: #333333;
+	display: block;
+	font-family: Arial,Helvética sans serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: 44px;
+	line-height: 48px;
+}
+.tab_cont_central div#tab_vd ul#tabs_zonas > li a span,
+.tab_cont_central div#tab_vd ul#tabs_zonas > li a:VISITED span {
+	background-color: #E2E2E2;
+	color: #333333;
+	display: block;
+	height: 44px;
+	width: 176px;
+}
+.tab_cont_central div#tab_vd ul#tabs_zonas > li.active.item a span {
+	background-color: #F1F1F1;
+	border-top: 5px solid #00ade9;
+	height: 39px;
+	line-height: 37px;
+}
+.tab_cont_central div#tab_vd div.content_tab {
+	width: 556px;
+	height: 300px;
+	padding-top:28px;
+	padding-left:8px;
+	background-color: #F1F1F1;
+	font-size: 12px;
+	color: #666666;
+}
 </style>
 </head>
 <body>
@@ -227,7 +285,26 @@ div.clearfix{
 					</div>
 				</div>
 				<div id="menu_opciones">
-				</div>					
+					<img src="../../images/propiedades-menu.jpg" alt="" />
+				</div>
+				<div class="clearfix"></div>
+				<div id="tab_vd">
+					<ul id="tabs_zonas">
+						<li class="active item"><a href=""><span>Descripción</span></a></li>
+						<li class="item" style="margin: 0 14px;"><a href=""><span>Formas de Pago</span></a></li>
+						<li class="item"><a href=""><span>Solicitar una orden de visita</span></a></li>
+					</ul>
+					<div class="content_tab">
+						<p>
+							<h5>FRUTILLAR ALTO</h5>
+						 	<ul>
+						 		<li>- Altos de Pacal</li>
+						 		<li>- Rincón del Cielo</li>
+						 		<li>- Campo Lindo</li>
+						 	</ul> 
+						</p>
+					</div>
+				</div>				
 			</div>
 		</div>		
 	</div>
