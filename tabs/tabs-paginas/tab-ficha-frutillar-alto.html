@@ -72,13 +72,14 @@ div.clearfix{
 }
 
 /*muestra principal*/
+/*cabecera producto*/
 .tab_cont_central div#muestra_ppal {
+	font-family: Arial,Helmet,Freesans,sans-serif;
 	height: 420px;
 	width: 556px;
 }
 .tab_cont_central #muestra_ppal #cabecera_prod {
 	height: 110px;
-	font-family: Arial,Helmet,Freesans,sans-serif;
 	border: 1px solid #00ade9;
 	background-color: #F1F1F1;
 }
@@ -118,6 +119,49 @@ div.clearfix{
 	font-size: 14px;
 	font-weight: bold;
 	color: #00ade9;
+}
+/*cuerpo producto*/
+.tab_cont_central #muestra_ppal #cuerpo_prod {
+	height: 308px;
+	margin-top: 8px;
+}
+.tab_cont_central #muestra_ppal #cuerpo_prod .col1 {
+	float: left;
+	width: 400px;
+}
+.tab_cont_central #muestra_ppal #cuerpo_prod .col1 #img_ppal {
+	height: 300px;
+	width: 400px;
+}
+.tab_cont_central #muestra_ppal #cuerpo_prod .col2 {
+	width: 156px;
+	float: left;
+	font-size: 12px;
+	color: #666666;
+}
+.tab_cont_central #muestra_ppal #cuerpo_prod .col2 .datos {
+	border: 1px solid #00ADE9;
+	margin-left: 7px;
+	padding-left: 6px;
+	padding-top: 6px;
+	width: 141px;
+}
+.tab_cont_central #muestra_ppal #cuerpo_prod .col2 .datos p.desc_txt {
+	height: 120px;
+}
+.tab_cont_central #muestra_ppal #cuerpo_prod .col2 .datos p {
+	margin-bottom: 18px;
+}
+.tab_cont_central #muestra_ppal #cuerpo_prod .col2 .datos p span{
+	display: block;
+	font-weight: bold;
+}
+/*menu de opciones*/
+.tab_cont_central div#menu_opciones {
+	width: 556px;
+	height: 66px;
+	background-color: #F1F1F1;
+	margin-top: 13px;
 }
 </style>
 </head>
@@ -164,6 +208,25 @@ div.clearfix{
 							<p><span>PRECIO:</span> $ 1.550.000.000 + IVA</p>
 						</div>
 					</div>
+					<div id="cuerpo_prod">
+						<div class="col1">
+							<div id="img_ppal">
+								<img src="../../images/propiedades/frutillar-alto.jpg" alt="Frutillar Alto" />
+							</div>
+						</div>
+						<div class="col2">
+							<div class="datos">
+								<p class="desc_txt">293 HÁS PLANAS, LOMAJES SUAVES, CAMPO GANADERO, CASA PATRONAL, A 800 MTS DE LÍMITE URBANO
+								</p>
+								<p><span>Terreno: </span>293,00 Hectareas
+								</p>
+								<p><span>Construida: </span>1100,00 Mts2
+								</p>								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="menu_opciones">
 				</div>					
 			</div>
 		</div>		
