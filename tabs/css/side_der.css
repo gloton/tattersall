@@ -1,12 +1,10 @@
 #side_der {
 	border: 1px solid #BACD3B;
 	float: left;
-	height: 390px;
 	margin-right: 18px;
 	width: 130px;
 }
 #side_der ul#lst_side_der {
-	height: 278px;
 	width: 100px;
 	margin: 10px auto 0;
 }
