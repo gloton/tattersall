@@ -21,20 +21,19 @@ div.clearfix{
 }
 .wrap_pag_tab #wrap_prop_agricolas {
 	background-color: #FFFFFF;
-	height: 1010px;
 	margin: 0 auto;
+	overflow: hidden;
 	padding-left: 18px;
 	width: 722px;
 }
 /*contenido central del tab*/
 .tab_cont_central {
 	float: left;
-	height: 990px;
+	height: 2000px;
 	width: 572px;
 }
 .tab_cont_central {
 	float: left;
-	height: 580px;
 	width: 572px;
 }
 
@@ -216,13 +215,11 @@ div.clearfix{
 	background-color: #F1F1F1;
 	color: #666666;
 	font-size: 12px;
-	height: 300px;
-	padding-left: 8px;
-	padding-top: 28px;
-	width: 548px;
+	padding: 28px 8px 20px;
+	width: 540px;
 }
 .tab_cont_central div#tab_vd div.content_tab h5 {
-	display: inline;
+	display: inline-block;
 	line-height: 20px;
 }
 .tab_cont_central div#tab_vd div.content_tab li span {
@@ -237,6 +234,9 @@ div.clearfix{
 }
 .tab_cont_central #tab_vd div.content_tab ol#lst_caracter li ul {
 	padding-left: 17px;
+}
+.tab_cont_central div#tab_vd .content_tab p.parr_ind {
+	margin: 12px 0;
 }
 </style>
 </head>
@@ -312,34 +312,148 @@ div.clearfix{
 						<li class="item"><a href=""><span>Solicitar una orden de visita</span></a></li>
 					</ul>
 					<div class="content_tab">
-						<p>
-							<h5>FRUTILLAR ALTO</h5>
-						 	<ul id="lst_desc">
-						 		<li><span>- Altos de Pacal</span></li>
-						 		<li><span>- Rincón del Cielo</span></li>
-						 		<li><span>- Campo Lindo</span></li>
-						 	</ul>
-						 	<ol id="lst_caracter">
-						 		<li><span>- Superficie: 293 hás</span></li>
-						 		<li>
-						 			<h5>Identificación de los roles</h5>
-						 			<ul>
-							 			<li><span>Altos de Pacal - Rol 242 – 117 Superficie aprox. 193 has</span></li>
-										<li><span>Rincón del Cielo - Rol 242 - 56 Superficie aprox. 70 has</span></li>
-										<li><span>Campo Lindo - Rol 242 – 116 Superficie aprox. 30 has</span></li>
-						 			</ul>
-						 		</li>
-						 		<li>
-						 			<h5>Ubicación:</h5>
-						 			<ul>
-							 			<li><p>El predio se sitúa a 800 mts. del límite urbano de Frutillar Alto, 
-							 				frente al camino pavimentado de Frutillar Alto a Puerto Octay.
-							 				</p>
-							 			</li>
-						 			</ul>						 			
-						 		</li>
-						 	</ol>
-						</p>
+						<h5>FRUTILLAR ALTO</h5>
+					 	<ul id="lst_desc">
+					 		<li><span>- Altos de Pacal</span></li>
+					 		<li><span>- Rincón del Cielo</span></li>
+					 		<li><span>- Campo Lindo</span></li>
+					 	</ul>
+					 	<ol id="lst_caracter">
+					 		<li><span>- Superficie: 293 hás</span></li>
+					 		<li>
+					 			<h5>Identificación de los roles</h5>
+					 			<ul>
+						 			<li><span>Altos de Pacal - Rol 242 – 117 Superficie aprox. 193 has</span></li>
+									<li><span>Rincón del Cielo - Rol 242 - 56 Superficie aprox. 70 has</span></li>
+									<li><span>Campo Lindo - Rol 242 – 116 Superficie aprox. 30 has</span></li>
+					 			</ul>
+					 		</li>
+					 		<li>
+					 			<h5>Ubicación:</h5>
+					 			<ul>
+						 			<li><p>El predio se sitúa a 800 mts. del límite urbano de Frutillar Alto, 
+						 				frente al camino pavimentado de Frutillar Alto a Puerto Octay.
+						 				</p>
+						 			</li>
+					 			</ul>						 			
+					 		</li>
+					 		<li>
+					 			<h5>Limites:</h5>
+					 			<ul>
+						 			<li><p>Sur en 900 mts aprox. con el camino pavimentado Frutillar a Puerto Octay.</p></li>
+						 			<li><p>Poniente, en 3,57 Kms. con campos vecinos.</p></li>
+						 			<li><p>Norte, en 1,16 Kms. con campo vecino.</p></li>
+						 			<li><p>Oriente, en 3,80 Kms. aprox. con campos vecinos.</p></li>
+					 			</ul>						 			
+					 		</li>
+					 		<li>
+					 			<h5>Suelos:</h5>
+					 			<ul>
+						 			<li>
+						 				<p>Son ñadis, característicos de la zona, mejorados con trabajos de fertilización, 
+						 				drenaje completo y regeneración de praderas.
+						 				</p>
+						 			</li>
+					 			</ul>
+					 			<h5 style="margin-top: 18px;padding-left: 18px;">La distribución de la superficie es la siguiente:</h5>
+					 			<ul>
+						 			<li><p>140 has. regeneradas</p></li>
+						 			<li><p>60 has. recuperadas por regenerar</p></li>
+						 			<li><p>100 has. bosquetes de protección y área de bosques, instalaciones y caminos.</p></li>
+					 			</ul>
+					 		</li>
+					 		<li>
+					 			<h5>Aptitudes:</h5>
+					 			<ul>
+						 			<li>
+						 				<p>Ganadería bovina: Crianza, engorda, lechería. Actualmente con recría y engorda 
+						 				llegando a manejar 1.100 cabezas, la temporada pasada..
+						 				</p>
+						 				<p>Otras aptitudes: Avellano europeo, arándanos.
+						 				</p>
+						 			</li>
+					 			</ul>						 			
+					 		</li>
+					 		<li>
+					 			<h5>Fuentes de agua:</h5>
+					 			<ul>
+						 			<li><p>Pozo profundo bomba.: Capacidad 10 lts./se. inscritos</p></li>
+						 			<li><p>Pozo Noria y Bomba: Capacidad 4 lts/seg. inscritos.</p></li>
+						 			<li><p>Estanque Australiano: Capacidad 15.000 lts.</p></li>
+						 			<li>
+						 				<p>Tres Esteros: Con 3 puntos para bombeo con derechos de agua inscritos 
+						 				por 5 lts/seg (caudal permite mayor consumo)
+						 				</p>
+						 			</li>
+					 			</ul>						 			
+					 		</li>
+					 		<li><h5>Red de caminos: 5 Kms de caminos interiores estabilizados</h5></li>
+					 		<li>
+					 			<h5>Drenajes:</h5>
+					 			<ul>
+					 				<li>
+							 			<p>Mas de 200 has con 12 000 mts. Lineales de sistema de drenaje de drenaje y
+							 			alcantarilla con fosos matrices y colectores con arado topo.
+							 			</p>
+							 		</li>
+					 			</ul>
+					 		</li>
+					 		<li>
+					 			<h5>Construcciones:</h5>
+					 			<ul>
+						 			<li><p>Casa de administración (Patronal) (superficie y estado) 4 casas de trabajadores</p></li>
+						 			<li><p>2 Galpones con 600 m2</p></li>
+						 			<li><p>Corrales (capacidad de encierra) mangas y sala de ordeña con estanque de frío predial (.?)</p></li>
+					 			</ul>
+					 		</li>
+					 		<li>
+					 			<h5>Desarrollo de Proyectos Inmobiliarios y Turísticos</h5>
+					 			<ul>
+						 			<li>
+						 				<p>Su cercanía con la ciudad de Frutillar en pleno desarrollo turístico y cultural, 
+						 				hermosas vistas y lugares,con esplendidos caminos que unen el predio con Frutillar, 
+						 				Puerto Octay, Llanquihue, Puerto Varas y Puerto Montt hacen de esta propiedad una 
+						 				excelente inversión, con gran plusvalía para proyectarse en el corto y mediano plazo 
+						 				en diferentes proyectos acordes con su ubicación y red de caminos, en un lugar que 
+						 				se mueve entre la agricultura, el turismo, los lagos y el mar a no más de 30 kms. (.?) 
+						 				de los lugares más lejanos (Pto. Octay – Pto. Montt.)
+						 				</p>
+						 			</li>
+					 			</ul>
+					 			<h5 style="margin-top: 18px;padding-left: 18px;">Proyectos funcionando y en desarrollo:</h5>
+					 			<ul>
+						 			<li><p>- “Teatro del Lago – (terminado)</p></li>
+						 			<li>
+							 			<p>- “Patagonia Virgin” – Proyecto Inmobiliario en construcción y venta  que contará con 
+							 			cancha de Golf, hotel y Casa Huéspedes de lujo
+							 			</p>
+						 			</li>
+						 			<li><p>- Sin contar con cabañas de turismo, hosterías, restaurantes y otros en aumento.</p></li>
+					 			</ul>					 			
+					 		</li>					 						 							 								 							 		
+					 	</ol>
+					 	<p class="parr_ind">Precio: $1.550.000.000.- + comisión 2% más IVA</p>
+					 	<h5>OPCION DE COMPRA:</h5>
+					 	<p class="parr_ind">Extraordinaria casa habitación (colindante con las 293 hás) de 1.100 m2 construidos en maderas 
+					 	nativas y seleccionadas de la zona, vidrios termopanel, calefacción por caldera, red de sistema 
+					 	telefónico, cocina Industrial, quincho.					 	
+					 	</p>
+					 	<h5>Distribución:</h5>
+					 	<p class="parr_ind">Gran sala de estar, comedor, sala de juegos, videoteca, oficina, 3 dormitorios en suite, 3 
+					 	departamentos con kitchenette, baño completo, con 3 dormitorios cada uno. Capacidad total para
+					 	18 camas.
+					 	</p>
+					 	<p class="parr_ind">Superficie terreno: 7 has
+					 	</p>
+					 	<p class="parr_ind" style="margin-bottom: 20px;">Precio: $430.000.000.- + comisión 2% más IVA
+					 	</p>
+					 	<div style="height: 30px; width: 556px; background-color: rgb(226, 226, 226); margin-left: -8px;"></div>
+					 	<div class="contactos">
+					 		<table>
+					 			<tr><td>Cesar Labbe</td><td>Tel. 3623110</td><td>clabbe@tattersall.cl</td></tr>
+					 			<tr><td>Hans Holzhaur B.</td><td>Tel. 3623124/ 9 9390345</td><td>hholzhauer@tattersall.cl</td></tr>
+					 		</table>
+					 	</div>
 					</div>
 				</div>				
 			</div>
