@@ -17,6 +17,92 @@ div.clearfix{
      clear:both;
      content: ".";
 }
+/*busqueda*/
+#buscar_agric {
+	background-color: #EDEDED;
+	border-bottom: 1px solid #009CE1;
+	border-top: 5px solid #009CE1;
+	color: #666666;
+	float: left;
+	font-family: Arial,Helmet,Freesans,sans-serif;
+	height: 33px;
+	padding-top: 12px;
+	width: 722px;
+}
+#buscar_agric .boton span {
+	display: inline-block;
+	float: left;
+	height: 21px;
+	padding-left: 8px;
+	padding-top: 5px;
+}
+#buscar_agric #region {
+  float: left;
+  height: inherit;
+  width: 140px;
+}
+#buscar_agric #region #wrap_region {
+  background: url("../../images/bg_btn_region.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+  height: 26px;
+  margin: 0 auto;
+  width: 105px;
+}
+#buscar_agric #wrap_region.boton span#wrap_txt_reg {
+  width: 41px;
+}
+#buscar_agric .boton span.flechita-abajo {
+  background: url("../../images/flechita-azul-abajo.png") no-repeat scroll 40px 10px transparent;
+  float: left;
+  width: 46px;
+}
+#buscar_agric #comuna {
+  float: left;
+  height: inherit;
+  width: 134px;
+}
+#buscar_agric #comuna #wrap_comuna {
+  background: url("../../images/bg_btn_comuna.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+  height: 26px;
+  margin: 0 auto;
+  width: 113px;
+}
+#buscar_agric #wrap_comuna.boton span#wrap_txt_com {
+  width: 48px;
+}
+#buscar_agric #buscar {
+  float: left;
+  height: inherit;
+  width: 115px;
+}
+#buscar_agric #buscar #wrap_buscar {
+  background: url("../../images/btn_buscar_propiedad.jpg") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+  height: 25px;
+  margin: 0 auto;
+  width: 74px;
+}
+#buscar_agric #ordenarpor {
+  float: left;
+  height: inherit;
+  width: 169px;
+}
+#buscar_agric #ordenarpor #wrap_ordenarpor {
+  background: url("../../images/bg_btn_ordenar_por.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+  height: 26px;
+  margin: 0 auto;
+  width: 113px;
+}
+#buscar_agric #wrap_ordenarpor.boton span#wrap_txt_ord {
+  width: 73px;
+}
+#buscar_agric .boton span#flecha-ordenar-por.flechita-abajo {
+  background: url("../../images/flechita-azul-abajo.png") no-repeat scroll 18px 10px transparent;
+  width: 24px;
+}
+/*tabs*/
 #tab_vd {
 	float: right;
 	height: 54px;
@@ -158,6 +244,20 @@ div.clearfix{
 		</div>
 		<div id="wrap_ficha" style="height: 940px;">
 			<div id="wrap_arriendo">
+				<div id="buscar_agric">
+					<div id="region">
+						<div id="wrap_region" class="boton"><span id="wrap_txt_reg">Región</span><span class="flechita-abajo"></span></div>
+					</div>
+					<div id="comuna">
+						<div id="wrap_comuna" class="boton"><span id="wrap_txt_com">Comuna</span><span class="flechita-abajo"></span></div>
+					</div>
+					<div id="buscar">
+						<div id="wrap_buscar" class="boton"><span>BUSCAR</span></div>
+					</div>
+					<div id="ordenarpor">
+						<div id="wrap_ordenarpor" class="boton"><span id="wrap_txt_ord">Ordenar por</span><span id="flecha-ordenar-por" class="flechita-abajo"></span></div>
+					</div>
+				</div>
 					<div id="tab_vd">
 						<ul id="tabs_zonas">
 							<li class="active item"><a href=""><span>ZONA NORTE</span></a></li>
