@@ -42,10 +42,9 @@ $(document).ready( function (){
         $('.tabContent').height(2120);
         
     });
-    $('#pag_remates').click(function() {
+    $('#pag_arriendos').click(function() {
         //instrucciones
-        $('.tabContent').height(1450);
-        
+        $('.tabContent').height(635);
     });	    
     
 });
@@ -105,7 +104,9 @@ div.tabMain {
   border-width: 4px 2px 2px;
   padding: 0;
 }
-
+#sec_contenido div.wrap div#wrap_remates {
+   
+}
 </style>
 </head>
 
@@ -144,7 +145,7 @@ div.tabMain {
 	<div class="clearfix"></div>
 	<div id="sec_contenido">
 		<div class="wrap">
-			<div id="wrap_remates" style="min-height: 700px;">
+			<div id="wrap_remates" style="height: 700px;">
 				<div id="tabs-mev" class="tabBox" style="clear:both;">
 					<div class="tabArea">
 						<a id="pag_remates" class="tab" href="../tabs/tabs-paginas/tab_remate_fabrica_completa_moldulam.html" target="tabIframe2" style="margin-left: 10px;">Remates</a>
