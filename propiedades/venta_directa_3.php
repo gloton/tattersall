@@ -149,7 +149,7 @@ div.tabMain {
 					<div class="tabArea">
 						<a id="pag_remates" class="tab" href="../tabs/tabs-paginas/tab_remate_fabrica_completa_moldulam.html" target="tabIframe2" style="margin-left: 10px;">Remates</a>
 						<a id="pag_venta_directa" class="tab" href="../tabs/tabs-paginas/tab-ficha-frutillar-alto.html" target="tabIframe2">Venta Directa</a>
-						<a class="tab" href="../tabs/tabs-paginas/tab-remate-online.html" target="tabIframe2">Remate On-Line</a>
+						<a class="tab" href="../tabs/tabs-paginas/tab-remate-online.html" target="tabIframe2">Arriendo</a>
 					</div>
 					<div class="tabMain">
 					<div class="tabIframeWrapper">
