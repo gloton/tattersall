@@ -54,10 +54,10 @@ $(document).ready( function (){
 		//Aqui va el código del efecto
 		$('#ver_maq_equi_vehiculos').hover(
 				function() {
-				$('#img_flecha_propiedades').attr("src","http://localhost/tattersall/images/flecha-circulo-blanco.png");
+					$('#img_flecha_propiedades').attr("src","http://localhost/tattersall/images/flecha-circulo-blanco.png");
 				},
 				function() {
-				$('#img_flecha_propiedades').attr("src","http://localhost/tattersall/images/flecha-circulo.png");
+					$('#img_flecha_propiedades').attr("src","http://localhost/tattersall/images/flecha-circulo.png");
 				}
 				);
 		
