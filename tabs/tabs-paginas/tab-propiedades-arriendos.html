@@ -41,6 +41,13 @@ div.clearfix{
 	padding-top: 5px;
 	width: 110px;
 }
+#buscar_agric #wrap_buscar.boton span {
+	display: inline-block;
+	float: left;
+	padding: 0;
+	text-align: center;
+	width: 74px;
+}
 #buscar_agric #title_buscar {
 	background-color: #E4E4E4;
 	float: left;
@@ -109,16 +116,18 @@ div.clearfix{
 }
 #buscar_agric #buscar {
 	float: left;
+	font-size: 12px;
 	height: inherit;
 	margin-left: 27px;
 	width: 115px;
 }
 #buscar_agric #buscar #wrap_buscar {
-  background: url("../../images/btn_buscar_propiedad.jpg") no-repeat scroll 0 0 transparent;
-  cursor: pointer;
-  height: 25px;
-  margin: 0 auto;
-  width: 74px;
+	background: url("../../images/btn_buscar_propiedad.jpg") no-repeat scroll 0 0 transparent;
+	cursor: pointer;
+	height: 19px;
+	margin: 0 auto;
+	padding-top: 6px;
+	width: 74px;
 }
 
 /*tabs*/
@@ -133,7 +142,7 @@ div.clearfix{
 #tab_vd ul#tabs_zonas {
 	background-color: #E1E1E1;
 	border-top: 1px solid #009CE1 ;
-	height: 54px;
+	height: 59px;
 }
 #tab_vd ul#tabs_zonas > li.item {
 	border-top:6px;
@@ -239,11 +248,21 @@ div.clearfix{
 	margin-top: 6px;
 }
 .wrap_pag_tab #muestra_thum_prod div.box_prop .detail {
+	font-size: 12px;
 	text-align: center;
 	width: 218px;
 }
-.wrap_pag_tab #muestra_thum_prod div.box_prop .detail .desc {
-	margin-top: 8px;
+.wrap_pag_tab #muestra_thum_prod div.box_prop .detail .wrap_desc_top {
+	height: 30px;
+	padding-top: 8px;
+}
+.wrap_pag_tab #muestra_thum_prod div.box_prop .detail a {
+	display: inline-block;
+	height: 25px;
+	position: relative;
+	text-align: right;
+	top: 10px;
+	width: 205px;
 }
 .wrap_pag_tab #muestra_thum_prod div.box_prop .detail .precio {
 	font-weight: bold;
@@ -313,8 +332,11 @@ div.clearfix{
 									<img src="../../images/propiedades/arriendo/departamento-barrio-brasil.jpg" alt="Arriendo departamento barrio brasil" />
 								</div>
 								<div class="detail">
-									<p class="desc">Departamento Barrio Brasil</p>
-									<p class="precio">Valor Arriendo: $ 220.000</p>
+									<div class="wrap_desc_top">
+										<p class="desc">Departamento Barrio Brasil</p>
+										<p class="precio">Valor Arriendo: $ 220.000</p>
+									</div>
+									<a href="#"><img class="col1" src="../../images/cruz_8.png" alt="Icono cruz" /></a>
 								</div>
 							</div>
 							<div class="box_prop" style="margin-left: 26px; margin-right: 26px;">
@@ -325,8 +347,11 @@ div.clearfix{
 									<img src="../../images/propiedades/arriendo/departamento-barrio-brasil.jpg" alt="Arriendo departamento barrio brasil" />
 								</div>
 								<div class="detail">
-									<p class="desc">2 Dormitorios</p>
-									<p class="precio">Valor Arriendo: $ 220.000</p>
+									<div class="wrap_desc_top">
+										<p class="desc">2 Dormitorios</p>
+										<p class="precio">Valor Arriendo: $ 220.000</p>
+									</div>
+									<a href="#"><img class="col2" src="../../images/cruz_8.png" alt="Icono cruz" /></a>
 								</div>
 							</div>
 							<div class="box_prop">
@@ -337,8 +362,11 @@ div.clearfix{
 									<img src="../../images/propiedades/arriendo/departamento-barrio-brasil.jpg" alt="Arriendo departamento barrio brasil" />
 								</div>
 								<div class="detail">
-									<p class="desc">Espectacular, Santa María con Manquehue</p>
-									<p class="precio">Valor Arriendo: $ 2.000.000</p>
+									<div class="wrap_desc_top">
+										<p class="desc">Espectacular, Santa María con Manquehue</p>
+										<p class="precio">Valor Arriendo: $ 2.000.000</p>
+									</div>
+									<a href="#"><img class="col3" src="../../images/cruz_8.png" alt="Icono cruz" /></a>
 								</div>
 							</div>
 						</div>
